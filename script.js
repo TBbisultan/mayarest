@@ -299,7 +299,62 @@ function showScreen(id){
   if(id === 'cart') renderCart();
   if(id === 'menu') updateCartBar();
 }
- 
+ /* ---------------- HERO NAVIGATION ---------------- */
+
+function toggleHeroNav() {
+  document.body.classList.toggle('hero-nav-open');
+}
+
+function closeHeroNav() {
+  document.body.classList.remove('hero-nav-open');
+}
+
+function goHeroHome() {
+  closeHeroNav();
+  showScreen('home');
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+function goHeroMenu() {
+  closeHeroNav();
+  showScreen('menu');
+}
+
+function goHeroContacts() {
+  closeHeroNav();
+  showScreen('home');
+
+  setTimeout(() => {
+    const contacts = document.getElementById('contacts');
+
+    if (contacts) {
+      contacts.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  }, 50);
+}
+
+function scrollToInterior() {
+  const interior = document.querySelector('#home .section');
+
+  if (interior) {
+    interior.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+}
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeHeroNav();
+  }
+});
 /* ---------------- INIT ---------------- */
 renderCategories();
 renderMenuList();
