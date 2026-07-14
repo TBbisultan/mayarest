@@ -15,27 +15,109 @@
  
   <!-- ============ HOME SCREEN ============ -->
   <section id="home" class="screen active">
-    <div class="smoke-layer">
-      <div class="wisp w1"></div>
-      <div class="wisp w2"></div>
-      <div class="wisp w3"></div>
+<div class="new-hero">
+
+  <div class="hero-dark"></div>
+
+  <header class="new-hero-header">
+
+    <!-- Кнопка меню слева -->
+    <button class="hero-burger" onclick="toggleHeroNav()" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- MAYA возвращает на главную -->
+    <button class="hero-logo" onclick="goHeroHome()">
+      <i></i>
+      <span>MAYA</span>
+      <i></i>
+    </button>
+
+    <!-- Бронирование -->
+    <button class="hero-top-book" onclick="bookTable()">
+      Бронь
+    </button>
+
+  </header>
+
+  <div class="new-hero-content">
+
+    <h1>MAYA</h1>
+
+    <div class="hero-red-line"></div>
+
+    <p>The Art of Taste</p>
+
+    <div class="new-hero-buttons">
+
+      <button class="hero-menu-button" onclick="showScreen('menu')">
+        <span>Открыть меню</span>
+        <b>→</b>
+      </button>
+
+      <button class="hero-book-button" onclick="bookTable()">
+        Забронировать стол
+      </button>
+
     </div>
- 
-    <div class="topbar">
-      <div class="brand"><span class="dot"></span> MAYA <span class="dot"></span></div>
-    </div>
- 
-    <div class="hero">
-      <div class="eyebrow">Almaty · Premium Restaurant</div>
-      <h1>Вкус, достойный<br><span>безупречного</span> вечера</h1>
-      <p>Авторская кухня, изысканная подача и атмосфера тепла в самом сердце города.</p>
-      <div class="btn-row">
-        <button class="btn btn-gold" onclick="showScreen('menu')">Открыть меню</button>
-        <button class="btn btn-ghost" onclick="bookTable()">Забронировать стол</button>
-      </div>
-    </div>
- 
-    <div class="divider-orn"><span></span><i></i><span></span></div>
+
+  </div>
+
+  <button class="hero-down" onclick="scrollToInterior()">
+    <span></span>
+    <b>⌄</b>
+  </button>
+
+</div>
+
+<!-- Затемнение при открытии бокового меню -->
+<div
+  class="hero-nav-overlay"
+  id="heroNavOverlay"
+  onclick="closeHeroNav()">
+</div>
+
+<!-- Боковое меню -->
+<div class="hero-nav" id="heroNav">
+
+  <div class="hero-nav-top">
+    <button class="hero-nav-logo" onclick="goHeroHome()">MAYA</button>
+
+    <button class="hero-nav-close" onclick="closeHeroNav()">
+      ×
+    </button>
+  </div>
+
+  <div class="hero-nav-line"></div>
+
+  <button class="hero-nav-link" onclick="goHeroHome()">
+    <span>01</span>
+    Главная
+  </button>
+
+  <button class="hero-nav-link" onclick="goHeroMenu()">
+    <span>02</span>
+    Меню
+  </button>
+
+  <button class="hero-nav-link" onclick="goHeroContacts()">
+    <span>03</span>
+    Контакты
+  </button>
+
+  <div class="hero-nav-bottom">
+    Maya · Almaty
+  </div>
+
+</div>
+
+<div class="divider-orn">
+  <span></span>
+  <i></i>
+  <span></span>
+</div>
  
     <div class="section">
       <div class="section-head">
