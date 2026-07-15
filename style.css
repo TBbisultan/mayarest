@@ -93,10 +93,14 @@
   overflow: hidden;
   color: #fff;
 
-  background:
-    radial-gradient(120% 70% at 50% 0%, rgba(156,26,46,0.28), transparent 60%),
-    radial-gradient(90% 60% at 15% 100%, rgba(189,32,56,0.20), transparent 55%),
-    linear-gradient(165deg, #1a0f0c 0%, #0c0705 55%, #090706 100%);
+ background:
+  linear-gradient(
+    180deg,
+    rgba(0,0,0,0.45),
+    rgba(0,0,0,0.25),
+    rgba(0,0,0,0.72)
+  ),
+  url("hero-maya.jpg") center center / cover no-repeat;
 }
 
 .new-hero::before{
