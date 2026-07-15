@@ -12,38 +12,38 @@ const CATEGORIES = [
  
 const ITEMS = [
   // Салаты
-  { id:'sa1',  cat:'salads', name:'Греческий салат', desc:'Свежие овощи, оливки, сыр фета, оливковое масло', price:2590, img:'https://loremflickr.com/300/300/greek,salad' },
-  { id:'sa2',  cat:'salads', name:'Оливье с мясом', desc:'Классический салат с говядиной, картофелем и горошком', price:2690, img:'https://loremflickr.com/300/300/russian,salad' },
-  { id:'sa3',  cat:'salads', name:'Гнездо глухаря', desc:'Слоёный салат с курицей, грибами и картофельной соломкой', price:2690, img:'https://loremflickr.com/300/300/layered,salad' },
-  { id:'sa4',  cat:'salads', name:'Цезарь с курицей', desc:'Курица гриль, романо, пармезан, соус цезарь', price:2690, img:'https://loremflickr.com/300/300/caesar,salad' },
-  { id:'sa5',  cat:'salads', name:'Малибу', desc:'Креветки, авокадо, микс салатов, цитрусовая заправка', price:2790, img:'https://loremflickr.com/300/300/shrimp,avocado,salad' },
-  { id:'sa6',  cat:'salads', name:'Сельдь под шубой', desc:'Слоёный салат с сельдью, свёклой и картофелем', price:2890, img:'https://loremflickr.com/300/300/herring,beetroot' },
+  { id:'sa1',  cat:'salads', name:'Греческий салат', desc:'Свежие овощи, оливки, сыр фета, оливковое масло', price:2590, img: "images/grecheskiy-salat.jpg" },
+  { id:'sa2',  cat:'salads', name:'Оливье с мясом', desc:'Классический салат с говядиной, картофелем и горошком', price:2690, img: "images/olive-s-myasom.jpg"   },
+  { id:'sa3',  cat:'salads', name:'Гнездо глухаря', desc:'Слоёный салат с курицей, грибами и картофельной соломкой', price:2690, img: 'images/gnezdo-glukharya.jpg'' },
+  { id:'sa4',  cat:'salads', name:'Цезарь с курицей', desc:'Курица гриль, романо, пармезан, соус цезарь', price:2690, img: 'images/tsezar-s-kuritsey.jpg' },
+  { id:'sa5',  cat:'salads', name:'Малибу', desc:'Креветки, авокадо, микс салатов, цитрусовая заправка', price:2790, img: 'images/malibu-salat.jpg' },
+  { id:'sa6',  cat:'salads', name:'Сельдь под шубой', desc:'Слоёный салат с сельдью, свёклой и картофелем', price:2890, img: 'images/seld-pod-shuboy.jpg' },
 
  
   // Закуски
-  { id:'sn1',  cat:'snacks', name:'Сырные палочки', desc:'Хрустящие палочки моцарелла в панировке', price:2490, img:'https://loremflickr.com/300/300/cheese,sticks' },
-  { id:'sn2',  cat:'snacks', name:'Наггетсы', desc:'Куриные наггетсы с соусом на выбор', price:1990, img:'https://loremflickr.com/300/300/chicken,nuggets' },
-  { id:'sn3',  cat:'snacks', name:'Крылья Баффало', desc:'Острые куриные крылья в соусе баффало', price:2790, img:'https://loremflickr.com/300/300/buffalo,wings' },
-  { id:'sn4',  cat:'snacks', name:'Крылья BBQ', desc:'Куриные крылья в соусе барбекю', price:2590, img:'https://loremflickr.com/300/300/bbq,wings' },
-  { id:'sn5',  cat:'snacks', name:'Гарлики', desc:'Чесночные гренки с зеленью', price:1590, img:'https://loremflickr.com/300/300/garlic,bread' },
+  { id:'sn1',  cat:'snacks', name:'Сырные палочки', desc:'Хрустящие палочки моцарелла в панировке', price:2490, img: 'images/syrnye-palochki.jpg' },
+  { id:'sn2',  cat:'snacks', name:'Наггетсы', desc:'Куриные наггетсы с соусом на выбор', price:1990, img: 'images/naggetsy.jpg' },
+  { id:'sn3',  cat:'snacks', name:'Крылья Баффало', desc:'Острые куриные крылья в соусе баффало', price:2790, img: 'images/krylya-baffalo.jpg' },
+  { id:'sn4',  cat:'snacks', name:'Крылья BBQ', desc:'Куриные крылья в соусе барбекю', price:2590, img: 'images/krylya-bbq.jpg' },
+  { id:'sn5',  cat:'snacks', name:'Гарлики', desc:'Чесночные гренки с зеленью', price:1590, img: 'images/garliki.jpg' },
 
  
   // Супы
-  { id:'so1', cat:'soups', name:'Суп лапша', desc:'Домашняя лапша, курица, бульон, зелень', price:1790, img:'https://loremflickr.com/300/300/chicken,noodle,soup' },
-  { id:'so2', cat:'soups', name:'Пельмени', desc:'Пельмени в бульоне со сметаной', price:1990, img:'https://loremflickr.com/300/300/pelmeni,soup' },
-  { id:'so3', cat:'soups', name:'Солянка', desc:'Наваристая солянка с копчёностями и оливками', price:2390, img:'https://loremflickr.com/300/300/solyanka,soup' },
-  { id:'so4', cat:'soups', name:'Чечевичный', desc:'Чечевичный суп с овощами и специями', price:2390, img:'https://loremflickr.com/300/300/lentil,soup' },
+  { id:'so1', cat:'soups', name:'Суп лапша', desc:'Домашняя лапша, курица, бульон, зелень', price:1790, img: 'images/sup-lapsha.jpg' },
+  { id:'so2', cat:'soups', name:'Пельмени', desc:'Пельмени в бульоне со сметаной', price:1990, img: 'images/pelmeni.jpg' },
+  { id:'so3', cat:'soups', name:'Солянка', desc:'Наваристая солянка с копчёностями и оливками', price:2390, img: 'images/solyanka.jpg' },
+  { id:'so4', cat:'soups', name:'Чечевичный', desc:'Чечевичный суп с овощами и специями', price:2390, img: 'images/chechevichnyy-sup.jpg' },
 
  
   // Паста
-  { id:'pa1', cat:'pasta', name:'Альфредо', desc:'Сливочный соус, пармезан, курица', price:2790, img:'https://loremflickr.com/300/300/alfredo,pasta' },
-  { id:'pa2', cat:'pasta', name:'Болоньезе', desc:'Классический мясной соус болоньезе', price:2990, img:'https://loremflickr.com/300/300/bolognese,pasta' },
-  { id:'pa3', cat:'pasta', name:'Паста с морепродуктами', desc:'Тальятелле, микс морепродуктов, томатный соус', price:3290, img:'https://loremflickr.com/300/300/seafood,pasta' },
+  { id:'pa1', cat:'pasta', name:'Альфредо', desc:'Сливочный соус, пармезан, курица', price:2790,img: 'images/pasta-alfredo.jpg' },
+  { id:'pa2', cat:'pasta', name:'Болоньезе', desc:'Классический мясной соус болоньезе', price:2990, img: 'images/boloneze.jpg' },
+  { id:'pa3', cat:'pasta', name:'Паста с морепродуктами', desc:'Тальятелле, микс морепродуктов, томатный соус', price:3290, img: 'images/pasta-s-moreproduktami.jpg' },
  
   // Пицца
-  { id:'pz1', cat:'pizza', name:'Маргарита', desc:'Томатный соус, моцарелла, базилик', price:2590, img:'https://loremflickr.com/300/300/margherita,pizza' },
-  { id:'pz2', cat:'pizza', name:'Пепперони', desc:'Острая пепперони, моцарелла, томатный соус', price:2890, img:'https://loremflickr.com/300/300/pepperoni,pizza' },
-  { id:'pz3', cat:'pizza', name:'BBQ', desc:'Курица, соус барбекю, лук, моцарелла', price:2890, img:'https://loremflickr.com/300/300/bbq,pizza' },
+  { id:'pz1', cat:'pizza', name:'Маргарита', desc:'Томатный соус, моцарелла, базилик', price:2590, img: 'images/pitstsa-margarita.jpg' },
+  { id:'pz2', cat:'pizza', name:'Пепперони', desc:'Острая пепперони, моцарелла, томатный соус', price:2890, img: 'images/pitstsa-pepperoni.jpg' },
+  { id:'pz3', cat:'pizza', name:'BBQ', desc:'Курица, соус барбекю, лук, моцарелла', price:2890,img: 'images/pitstsa-bbq.jpg'},
   
  
   // Блюда на компанию
