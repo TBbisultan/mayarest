@@ -18,12 +18,7 @@ const ITEMS = [
   { id:'sa4',  cat:'salads', name:'Цезарь с курицей', desc:'Курица гриль, романо, пармезан, соус цезарь', price:2690, img:'https://loremflickr.com/300/300/caesar,salad' },
   { id:'sa5',  cat:'salads', name:'Малибу', desc:'Креветки, авокадо, микс салатов, цитрусовая заправка', price:2790, img:'https://loremflickr.com/300/300/shrimp,avocado,salad' },
   { id:'sa6',  cat:'salads', name:'Сельдь под шубой', desc:'Слоёный салат с сельдью, свёклой и картофелем', price:2890, img:'https://loremflickr.com/300/300/herring,beetroot' },
-  { id:'sa7',  cat:'salads', name:'Салат из баклажанов', desc:'Печёные баклажаны, чеснок, грецкий орех, зелень', price:2890, img:'https://loremflickr.com/300/300/eggplant,salad' },
-  { id:'sa8',  cat:'salads', name:'Салат с телятиной и шпинатом', desc:'Тонко нарезанная телятина, свежий шпинат, кедровый орех', price:2890, img:'https://loremflickr.com/300/300/veal,spinach' },
-  { id:'sa9',  cat:'salads', name:'Кавказская нарезка', desc:'Ассорти мясных деликатесов по-кавказски', price:3090, img:'https://loremflickr.com/300/300/meat,platter' },
-  { id:'sa10', cat:'salads', name:'Руккола с креветками', desc:'Руккола, тигровые креветки, черри, лёгкая заправка', price:3190, img:'https://loremflickr.com/300/300/arugula,shrimp' },
-  { id:'sa11', cat:'salads', name:'Русская закуска', desc:'Ассорти традиционных русских закусок', price:3590, img:'https://loremflickr.com/300/300/appetizer,platter' },
-  { id:'sa12', cat:'salads', name:'Ассорти домашних разносолов', desc:'Домашние соленья и маринады', price:3690, img:'https://loremflickr.com/300/300/pickles,jar' },
+
  
   // Закуски
   { id:'sn1',  cat:'snacks', name:'Сырные палочки', desc:'Хрустящие палочки моцарелла в панировке', price:2490, img:'https://loremflickr.com/300/300/cheese,sticks' },
@@ -31,24 +26,14 @@ const ITEMS = [
   { id:'sn3',  cat:'snacks', name:'Крылья Баффало', desc:'Острые куриные крылья в соусе баффало', price:2790, img:'https://loremflickr.com/300/300/buffalo,wings' },
   { id:'sn4',  cat:'snacks', name:'Крылья BBQ', desc:'Куриные крылья в соусе барбекю', price:2590, img:'https://loremflickr.com/300/300/bbq,wings' },
   { id:'sn5',  cat:'snacks', name:'Гарлики', desc:'Чесночные гренки с зеленью', price:1590, img:'https://loremflickr.com/300/300/garlic,bread' },
-  { id:'sn6',  cat:'snacks', name:'Луковые кольца', desc:'Хрустящие кольца лука в панировке', price:1690, img:'https://loremflickr.com/300/300/onion,rings' },
-  { id:'sn7',  cat:'snacks', name:'Пивные креветки', desc:'Креветки в пивном кляре', price:3390, img:'https://loremflickr.com/300/300/fried,shrimp' },
-  { id:'sn8',  cat:'snacks', name:'Клаб сэндвич', desc:'Трёхслойный сэндвич с курицей и беконом', price:2790, img:'https://loremflickr.com/300/300/club,sandwich' },
-  { id:'sn9',  cat:'snacks', name:'Бургер куриный', desc:'Куриное филе, свежие овощи, соус', price:2790, img:'https://loremflickr.com/300/300/chicken,burger' },
-  { id:'sn10', cat:'snacks', name:'Бургер говяжий', desc:'Говяжья котлета, чеддер, свежие овощи', price:3190, img:'https://loremflickr.com/300/300/beef,burger' },
-  { id:'sn11', cat:'snacks', name:'Кесадилья', desc:'Тортилья с сыром, курицей и овощами', price:2890, img:'https://loremflickr.com/300/300/quesadilla' },
-  { id:'sn12', cat:'snacks', name:'Пивной сет 1', desc:'Гарлики, крылышки, сырные палочки, луковые кольца, кетчуп, тар-тар', price:5990, img:'https://loremflickr.com/300/300/beer,snacks,platter' },
-  { id:'sn13', cat:'snacks', name:'Пивной сет 2', desc:'Жареный чечил, картофель фри, луковые кольца, гарлики, крылышки, сырные палочки, креветки, арахис, соусы', price:8990, img:'https://loremflickr.com/300/300/mixed,platter,beer' },
+
  
   // Супы
   { id:'so1', cat:'soups', name:'Суп лапша', desc:'Домашняя лапша, курица, бульон, зелень', price:1790, img:'https://loremflickr.com/300/300/chicken,noodle,soup' },
   { id:'so2', cat:'soups', name:'Пельмени', desc:'Пельмени в бульоне со сметаной', price:1990, img:'https://loremflickr.com/300/300/pelmeni,soup' },
   { id:'so3', cat:'soups', name:'Солянка', desc:'Наваристая солянка с копчёностями и оливками', price:2390, img:'https://loremflickr.com/300/300/solyanka,soup' },
   { id:'so4', cat:'soups', name:'Чечевичный', desc:'Чечевичный суп с овощами и специями', price:2390, img:'https://loremflickr.com/300/300/lentil,soup' },
-  { id:'so5', cat:'soups', name:'Рамен с курицей', desc:'Куриный бульон, лапша, яйцо, овощи', price:2590, img:'https://loremflickr.com/300/300/chicken,ramen' },
-  { id:'so6', cat:'soups', name:'Рамен с говядиной', desc:'Говяжий бульон, лапша, овощи', price:2790, img:'https://loremflickr.com/300/300/beef,ramen' },
-  { id:'so7', cat:'soups', name:'Шорпа', desc:'Наваристый суп с бараниной и овощами', price:3090, img:'https://loremflickr.com/300/300/lamb,soup' },
-  { id:'so8', cat:'soups', name:'Том Ям', desc:'Острый тайский суп с креветками и кокосовым молоком', price:4090, img:'https://loremflickr.com/300/300/tom,yum' },
+
  
   // Паста
   { id:'pa1', cat:'pasta', name:'Альфредо', desc:'Сливочный соус, пармезан, курица', price:2790, img:'https://loremflickr.com/300/300/alfredo,pasta' },
@@ -59,9 +44,7 @@ const ITEMS = [
   { id:'pz1', cat:'pizza', name:'Маргарита', desc:'Томатный соус, моцарелла, базилик', price:2590, img:'https://loremflickr.com/300/300/margherita,pizza' },
   { id:'pz2', cat:'pizza', name:'Пепперони', desc:'Острая пепперони, моцарелла, томатный соус', price:2890, img:'https://loremflickr.com/300/300/pepperoni,pizza' },
   { id:'pz3', cat:'pizza', name:'BBQ', desc:'Курица, соус барбекю, лук, моцарелла', price:2890, img:'https://loremflickr.com/300/300/bbq,pizza' },
-  { id:'pz4', cat:'pizza', name:'Цезарь', desc:'Курица, романо, пармезан, соус цезарь', price:2990, img:'https://loremflickr.com/300/300/chicken,pizza' },
-  { id:'pz5', cat:'pizza', name:'Мексиканская', desc:'Халапеньо, говядина, кукуруза, перец', price:2990, img:'https://loremflickr.com/300/300/mexican,pizza' },
-  { id:'pz6', cat:'pizza', name:'Курица с грибами', desc:'Курица, шампиньоны, моцарелла', price:2990, img:'https://loremflickr.com/300/300/mushroom,pizza' },
+  
  
   // Блюда на компанию
   { id:'sh1', cat:'sharing', name:'Мясной микс', desc:'Ассорти из стейков и мясных деликатесов на компанию', price:29990, img:'https://loremflickr.com/300/300/grilled,meat,platter' },
