@@ -14,7 +14,7 @@ const ITEMS = [
   // Салаты
   { id:'sa1',  cat:'salads', name:'Греческий салат', desc:'Свежие овощи, оливки, сыр фета, оливковое масло', price:2590, img: "images/grecheskiy-salat.jpg" },
   { id:'sa2',  cat:'salads', name:'Оливье с мясом', desc:'Классический салат с говядиной, картофелем и горошком', price:2690, img: "images/olive-s-myasom.jpg"   },
-  { id:'sa3',  cat:'salads', name:'Гнездо глухаря', desc:'Слоёный салат с курицей, грибами и картофельной соломкой', price:2690, img: 'images/gnezdo-glukharya.jpg'' },
+  { id:'sa3',  cat:'salads', name:'Гнездо глухаря', desc:'Слоёный салат с курицей, грибами и картофельной соломкой', price:2690, img: 'images/gnezdo-glukharya.jpg' },
   { id:'sa4',  cat:'salads', name:'Цезарь с курицей', desc:'Курица гриль, романо, пармезан, соус цезарь', price:2690, img: 'images/tsezar-s-kuritsey.jpg' },
   { id:'sa5',  cat:'salads', name:'Малибу', desc:'Креветки, авокадо, микс салатов, цитрусовая заправка', price:2790, img: 'images/malibu-salat.jpg' },
   { id:'sa6',  cat:'salads', name:'Сельдь под шубой', desc:'Слоёный салат с сельдью, свёклой и картофелем', price:2890, img: 'images/seld-pod-shuboy.jpg' },
