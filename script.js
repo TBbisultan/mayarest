@@ -105,15 +105,23 @@ const CATEGORY_ICONS = {
  
 function itemCardHTML(i){
   const qty = cart[i.id] || 0;
-  const icon = CATEGORY_ICONS[i.cat] || CATEGORY_ICONS.salads;
+
   return `
     <div class="item-card" data-id="${i.id}">
-      <div class="item-icon">${icon}</div>
+
+      <img
+        class="item-image"
+        src="${i.img}"
+        alt="${i.name}"
+      >
+
       <div class="item-body">
         <div class="item-name">${i.name}</div>
         <div class="item-desc">${i.desc}</div>
+
         <div class="item-foot">
           <div class="price-pill">${moneyFmt(i.price)}</div>
+
           ${qty > 0
             ? `<div class="qty-stepper">
                  <button class="qty-minus">−</button>
@@ -124,6 +132,7 @@ function itemCardHTML(i){
           }
         </div>
       </div>
+
     </div>
   `;
 }
