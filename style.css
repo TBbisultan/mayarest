@@ -1009,3 +1009,17 @@ body.hero-nav-open .hero-nav-overlay {
     font-family:'Cormorant Garamond', serif; font-style:italic;
     font-size:34px; color: var(--red-bright);
   }
+.item-image {
+  width: 105px;
+  height: 105px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
+}
+
+.item-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
