@@ -189,7 +189,11 @@ function renderCart(){
     const item = ITEMS.find(i=>i.id===id);
     return `
       <div class="cart-item" data-id="${id}">
-        <div class="item-icon">${CATEGORY_ICONS[item.cat] || CATEGORY_ICONS.salads}</div>
+       <img
+  class="item-image"
+  src="${item.img}"
+  alt="${item.name}"
+>
         <div class="item-body">
           <div class="item-name">${item.name}</div>
           <div class="item-desc">${item.desc}</div>
