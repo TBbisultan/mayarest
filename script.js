@@ -1,62 +1,176 @@
 
 /* ---------------- DATA ---------------- */
 const CATEGORIES = [
-  { id:'salads',  name:'Салаты' },
-  { id:'snacks',  name:'Закуски' },
-  { id:'soups',   name:'Супы' },
-  { id:'pasta',   name:'Паста' },
-  { id:'pizza',   name:'Пицца' },
-  { id:'sharing', name:'На компанию' },
-  { id:'sides',   name:'Гарниры' },
+  { id:'cold-snacks', name:'Холодные закуски' },
+  { id:'hot-snacks',  name:'Горячие закуски' },
+  { id:'pizza',       name:'Пиццы' },
+  { id:'soups',       name:'Супы' },
+  { id:'salads',      name:'Салаты' },
+  { id:'main',        name:'Вторые блюда' },
+  { id:'beer-set',    name:'Пивной сет' },
+  { id:'sides',       name:'Гарниры' },
 ];
- 
+
 const ITEMS = [
-  // Салаты
-  { id:'sa1',  cat:'salads', name:'Греческий салат', desc:'Свежие овощи, оливки, сыр фета, оливковое масло', price:2590, img: "images/grecheskiy-salat.jpg" },
-  { id:'sa2',  cat:'salads', name:'Оливье с мясом', desc:'Классический салат с говядиной, картофелем и горошком', price:2690, img: "images/olive-s-myasom.jpg"   },
-  { id:'sa3',  cat:'salads', name:'Гнездо глухаря', desc:'Слоёный салат с курицей, грибами и картофельной соломкой', price:2690, img: 'images/gnezdo-glukharya.jpg' },
-  { id:'sa4',  cat:'salads', name:'Цезарь с курицей', desc:'Курица гриль, романо, пармезан, соус цезарь', price:2690, img: 'images/tsezar-s-kuritsey.jpg' },
-  { id:'sa5',  cat:'salads', name:'Малибу', desc:'Креветки, авокадо, микс салатов, цитрусовая заправка', price:2790, img: 'images/malibu-salat.jpg' },
-  { id:'sa6',  cat:'salads', name:'Сельдь под шубой', desc:'Слоёный салат с сельдью, свёклой и картофелем', price:2890, img: 'images/seld-pod-shuboy.jpg' },
 
- 
-  // Закуски
-  { id:'sn1',  cat:'snacks', name:'Сырные палочки', desc:'Хрустящие палочки моцарелла в панировке', price:2490, img: 'images/syrnye-palochki.jpg' },
-  { id:'sn2',  cat:'snacks', name:'Наггетсы', desc:'Куриные наггетсы с соусом на выбор', price:1990, img: 'images/naggetsy.jpg' },
-  { id:'sn3',  cat:'snacks', name:'Крылья Баффало', desc:'Острые куриные крылья в соусе баффало', price:2790, img: 'images/krylya-baffalo.jpg' },
-  { id:'sn4',  cat:'snacks', name:'Крылья BBQ', desc:'Куриные крылья в соусе барбекю', price:2590, img: 'images/krylya-bbq.jpg' },
-  { id:'sn5',  cat:'snacks', name:'Гарлики', desc:'Чесночные гренки с зеленью', price:1590, img: 'images/garliki.jpg' },
+  // ================= САЛАТЫ =================
 
- 
-  // Супы
-  { id:'so1', cat:'soups', name:'Суп лапша', desc:'Домашняя лапша, курица, бульон, зелень', price:1790, img: 'images/sup-lapsha.jpg' },
-  { id:'so2', cat:'soups', name:'Пельмени', desc:'Пельмени в бульоне со сметаной', price:1990, img: 'images/pelmeni.jpg' },
-  { id:'so3', cat:'soups', name:'Солянка', desc:'Наваристая солянка с копчёностями и оливками', price:2390, img: 'images/solyanka.jpg' },
-  { id:'so4', cat:'soups', name:'Чечевичный', desc:'Чечевичный суп с овощами и специями', price:2390, img: 'images/chechevichnyy-sup.jpg' },
+  {
+    id:'sa1',
+    cat:'salads',
+    name:'Зелёный салат с авокадо',
+    desc:'Свежий зелёный салат с авокадо',
+    price:0,
+    img:null
+  },
 
- 
-  // Паста
-  { id:'pa1', cat:'pasta', name:'Альфредо', desc:'Сливочный соус, пармезан, курица', price:2790,img: 'images/pasta-alfredo.jpg' },
-  { id:'pa2', cat:'pasta', name:'Болоньезе', desc:'Классический мясной соус болоньезе', price:2990, img: 'images/boloneze.jpg' },
-  { id:'pa3', cat:'pasta', name:'Паста с морепродуктами', desc:'Тальятелле, микс морепродуктов, томатный соус', price:3290, img: 'images/pasta-s-moreproduktami.jpg' },
- 
-  // Пицца
-  { id:'pz1', cat:'pizza', name:'Маргарита', desc:'Томатный соус, моцарелла, базилик', price:2590, img: 'images/pitstsa-margarita.jpg' },
-  { id:'pz2', cat:'pizza', name:'Пепперони', desc:'Острая пепперони, моцарелла, томатный соус', price:2890, img: 'images/pitstsa-pepperoni.jpg' },
-  { id:'pz3', cat:'pizza', name:'BBQ', desc:'Курица, соус барбекю, лук, моцарелла', price:2890,img: 'images/pitstsa-bbq.jpg'},
-  
- 
-  // Блюда на компанию
-  { id:'sh1', cat:'sharing', name:'Мясной микс', desc:'Ассорти из стейков и мясных деликатесов на компанию', price:29990, img:'https://loremflickr.com/300/300/grilled,meat,platter' },
-  { id:'sh2', cat:'sharing', name:'Рыбный микс', desc:'Ассорти рыбы и морепродуктов на гриле', price:26990, img:'https://loremflickr.com/300/300/seafood,grill' },
-  { id:'sh3', cat:'sharing', name:'Колбасный микс', desc:'Ассорти колбасных изделий и копчёностей', price:22990, img:'https://loremflickr.com/300/300/sausage,platter' },
- 
-  // Гарниры
-  { id:'gr1', cat:'sides', name:'Рис', desc:'Отварной рассыпчатый рис', price:790, img:'https://loremflickr.com/300/300/steamed,rice' },
-  { id:'gr2', cat:'sides', name:'Фри', desc:'Картофель фри с хрустящей корочкой', price:890, img:'https://loremflickr.com/300/300/french,fries' },
-  { id:'gr3', cat:'sides', name:'Картофельное пюре', desc:'Нежное сливочное пюре', price:890, img:'https://loremflickr.com/300/300/mashed,potato' },
-  { id:'gr4', cat:'sides', name:'Картофельные дольки', desc:'Запечённые картофельные дольки со специями', price:890, img:'https://loremflickr.com/300/300/potato,wedges' },
-  { id:'gr5', cat:'sides', name:'Овощи на гриле', desc:'Сезонные овощи, приготовленные на гриле', price:1090, img:'https://loremflickr.com/300/300/grilled,vegetables' },
+  {
+    id:'sa2',
+    cat:'salads',
+    name:'Руккола с креветками',
+    desc:'Свежая руккола с нежными креветками',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'sa3',
+    cat:'salads',
+    name:'Салат Малибу',
+    desc:'Свежий и лёгкий салат',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'sa4',
+    cat:'salads',
+    name:'Салат Цезарь с курицей',
+    desc:'Классический Цезарь с нежной курицей',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'sa5',
+    cat:'salads',
+    name:'Салат Греческий',
+    desc:'Свежие овощи, сыр и оливки',
+    price:0,
+    img:null
+  },
+
+
+  // ================= ВТОРЫЕ БЛЮДА =================
+
+  {
+    id:'m1',
+    cat:'main',
+    name:'Куриная грудка, запечённая с грибным соусом',
+    desc:'Нежная запечённая куриная грудка с грибным соусом',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'m2',
+    cat:'main',
+    name:'Строганов с картофельным пюре',
+    desc:'Нежная говядина в соусе с картофельным пюре',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'m3',
+    cat:'main',
+    name:'Тушёнка с сырными макаронами и говядиной',
+    desc:'Сытное блюдо с говядиной, сырными макаронами и тушёным мясом',
+    price:0,
+    img:null
+  },
+
+
+  // ================= ПАСТА =================
+  // Пока оставляем в категории "Вторые блюда",
+  // потому что отдельной вкладки "Паста" больше нет.
+
+  {
+    id:'m4',
+    cat:'main',
+    name:'Паста лассо со шпинатом',
+    desc:'Нежная паста со шпинатом',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'m5',
+    cat:'main',
+    name:'Паста Альфредо',
+    desc:'Классическая паста в нежном сливочном соусе',
+    price:0,
+    img:null
+  },
+
+
+  // ================= ГОРЯЧИЕ ЗАКУСКИ =================
+
+  {
+    id:'hs1',
+    cat:'hot-snacks',
+    name:'Хачапури по-аджарски',
+    desc:'Традиционное хачапури с сыром и яйцом',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'hs2',
+    cat:'hot-snacks',
+    name:'Рамен с сыром и курицей',
+    desc:'Ароматный рамен с сыром и курицей',
+    price:0,
+    img:null
+  },
+
+
+  // ================= ХОЛОДНЫЕ ЗАКУСКИ =================
+
+  {
+    id:'cs1',
+    cat:'cold-snacks',
+    name:'Фруктовый ассорти',
+    desc:'Ассорти из свежих фруктов',
+    price:0,
+    img:null
+  },
+
+  {
+    id:'cs2',
+    cat:'cold-snacks',
+    name:'Мясной микс',
+    desc:'Ассорти мясных деликатесов',
+    price:0,
+    img:null
+  },
+
+
+  // ================= ПИЦЦЫ =================
+  // Пока пусто — добавим позже.
+
+
+  // ================= СУПЫ =================
+  // Пока пусто — добавим позже.
+
+
+  // ================= ПИВНОЙ СЕТ =================
+  // Пока пусто — добавим позже.
+
+
+  // ================= ГАРНИРЫ =================
+  // Пока пусто — добавим позже.
+
 ];
  
 /* ---------------- STATE ---------------- */
