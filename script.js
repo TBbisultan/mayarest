@@ -104,8 +104,8 @@ const ITEMS = [
   { id:'m5', cat:'main', name:'Паста Альфредо', desc:'', price:3590, img:'images/pasta-alfredo.jpg' },
   { id:'m6', cat:'main', name:'Паста с лососем и шпинатом', desc:'', price:3590, img:'images/pasta-s-lososem-i-shpinatom.jpg' },
   { id:'m7', cat:'main', name:'Паста лассо со шпинатом', desc:'', price:3890, img:'images/pasta-lasso-so-shpinatom.jpg' },
-  { id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/kurinaya-grudka-s-gribnym-sousom.jpg },
-  { id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:'images/tushenka-s-syrnymi-makaronami.jpg },
+  { id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/kurinaya-grudka-s-gribnym-sousom.jpg' },
+  { id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:'images/tushenka-s-syrnymi-makaronami.jpg' },
 
   // Китайские горячие блюда
 
