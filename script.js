@@ -283,8 +283,8 @@ function showToast(msg){
  
 /* ---------------- BOOKING ---------------- */
 function bookTable(){
-  const msg = encodeURIComponent('Здравствуйте! Хочу забронировать стол в Maya.');
-  window.open(`https://wa.me/77473546835?text=${msg}`, '_blank');
+  const msg = encodeURIComponent('Здравствуйте! Хочу забронировать стол в Milan.');
+  window.open(`https://wa.me/77477827391?text=${msg}`, '_blank');
 }
  
 /* ---------------- SCREEN NAV ---------------- */
