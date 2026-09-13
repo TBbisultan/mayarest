@@ -100,7 +100,7 @@
     rgba(0,0,0,0.25),
     rgba(0,0,0,0.72)
   ),
-  url("hero-maya.jpg") center center / cover no-repeat;
+  url("hero-milan.jpg") center center / cover no-repeat;
 }
 
 .new-hero::before{
