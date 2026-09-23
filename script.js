@@ -382,7 +382,9 @@ function showToast(msg){
  
 /* ---------------- BOOKING ---------------- */
 function bookTable(){
-  const msg = encodeURIComponent('Здравствуйте! Хочу забронировать стол в Milan.');
+  const msg = encodeURIComponent('Қайырлы күн! Milan мейрамханасынан үстелге тапсырыс бергім келеді.
+
+                                 Здравствуйте! Хочу забронировать стол в Milan.');
   window.open(`https://wa.me/77477827391?text=${msg}`, '_blank');
 }
  
