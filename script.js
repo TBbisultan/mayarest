@@ -19,8 +19,6 @@ const ITEMS = [
 
 { id:'cs1', cat:'cold-snacks', name:'Русская закуска', desc:'', price:4690, img:'images/russian-appetizer.jpg' },
 { id:'cs2', cat:'cold-snacks', name:'Фруктовый ассорти', desc:'', price:7890, img:'images/fruit-assortment.jpg' },
-{ id:'cs3', cat:'cold-snacks', name:'Зелёный салат', desc:'', price:3890, img:'images/green-salad.jpg' },
-{ id:'cs4', cat:'cold-snacks', name:'Фруктовый салат', desc:'', price:3690, img:'images/fruit-salad.jpg' },
 { id:'cs5', cat:'cold-snacks', name:'Брускетта с лососем', desc:'', price:3890, img:'images/salmon-bruschetta.jpg' },
 { id:'cs6', cat:'cold-snacks', name:'Мясной микс', desc:'', price:0, img:null },
 
@@ -77,7 +75,8 @@ const ITEMS = [
 // =====================================================
 // САЛАТЫ
 // =====================================================
-
+{ id:'cs3', cat:'salads', name:'Зелёный салат', desc:'', price:3890, img:'images/green-salad.jpg' },
+{ id:'cs4', cat:'salads', name:'Фруктовый салат', desc:'', price:3690, img:'images/fruit-salad.jpg' },
 { id:'sa1', cat:'salads', name:'Зелёный салат с авокадо', desc:'', price:0, img:'images/green-salad.jpg' },
 { id:'sa2', cat:'salads', name:'Греческий салат', desc:'', price:3690, img:'images/greek-salad.jpg' },
 { id:'sa3', cat:'salads', name:'Цезарь салат', desc:'', price:3890, img:'images/caesar-with-chicken.jpg' },
