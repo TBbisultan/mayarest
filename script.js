@@ -13,149 +13,139 @@ const CATEGORIES= [
 
 const ITEMS = [
 
-  // =====================================================
-  // ХОЛОДНЫЕ ЗАКУСКИ
-  // =====================================================
+// =====================================================
+// ХОЛОДНЫЕ ЗАКУСКИ
+// =====================================================
 
-  { id:'cs1', cat:'cold-snacks', name:'Русская закуска', desc:'', price:4690, img:'images/russkaya-zakuska.jpg' },
-  { id:'cs2', cat:'cold-snacks', name:'Фруктовый ассорти', desc:'', price:7890, img:'images/fruktoviy-assorti.jpg' },
-  { id:'cs3', cat:'cold-snacks', name:'Зелёный салат', desc:'', price:3890, img:'images/zeleniy-salat.jpg' },
-  { id:'cs4', cat:'cold-snacks', name:'Фруктовый салат', desc:'', price:3690, img:'images/fruktoviy-salat.jpg' },
-  { id:'cs5', cat:'cold-snacks', name:'Брускетта с лососем', desc:'', price:3890, img:'images/brusketta-s-lososem.jpg' },
-  { id:'cs6', cat:'cold-snacks', name:'Мясной микс', desc:'', price:0, img:'images/myasnoy-miks.jpg' },
+{ id:'cs1', cat:'cold-snacks', name:'Русская закуска', desc:'', price:4690, img:'images/russkaya.zakuska.jpg' },
+{ id:'cs2', cat:'cold-snacks', name:'Фруктовый ассорти', desc:'', price:7890, img:'images/fruktoviy.assorti.jpg' },
+{ id:'cs3', cat:'cold-snacks', name:'Зелёный салат', desc:'', price:3890, img:'images/green-salad.jpg' },
+{ id:'cs4', cat:'cold-snacks', name:'Фруктовый салат', desc:'', price:3690, img:'images/fruit-salad.jpg' },
+{ id:'cs5', cat:'cold-snacks', name:'Брускетта с лососем', desc:'', price:3890, img:'images/salmon-bruschetta.jpg' },
+{ id:'cs6', cat:'cold-snacks', name:'Мясной микс', desc:'', price:0, img:null },
 
-  // Китайские холодные блюда
-
-  { id:'cs7',  cat:'cold-snacks', name:'Салат из древесных грибов с луком', desc:'洋葱木耳', price:0, img:null },
-  { id:'cs8',  cat:'cold-snacks', name:'Салат из шпината с грибами «Золотая игла»', desc:'菠菜金针菇', price:0, img:null },
-  { id:'cs9',  cat:'cold-snacks', name:'Острый холодный крахмальный салат', desc:'西安辣凉粉', price:0, img:null },
-  { id:'cs10', cat:'cold-snacks', name:'Холодный салат из говяжьего желудка', desc:'凉拌牛肚', price:0, img:null },
-  { id:'cs11', cat:'cold-snacks', name:'Арахис', desc:'花生米', price:0, img:null },
-  { id:'cs12', cat:'cold-snacks', name:'Салат из шпината с пшеничным глютеном', desc:'菠菜面筋', price:0, img:null },
-  { id:'cs13', cat:'cold-snacks', name:'Острый салат из кожи тофу', desc:'香辣豆腐皮', price:0, img:null },
-  { id:'cs14', cat:'cold-snacks', name:'Салат из шпината с арахисом', desc:'菠菜花生米', price:0, img:null },
-  { id:'cs15', cat:'cold-snacks', name:'Холодный салат из говядины', desc:'凉拌牛肉', price:0, img:null },
-  { id:'cs16', cat:'cold-snacks', name:'Кисло-острый салат из корня папоротника', desc:'酸辣蕨根粉', price:0, img:null },
-  { id:'cs17', cat:'cold-snacks', name:'Острый салат из фужу', desc:'凉拌腐竹', price:0, img:null },
-  { id:'cs18', cat:'cold-snacks', name:'Сычуаньская холодная курица', desc:'口水鸡', price:0, img:null },
-  { id:'cs19', cat:'cold-snacks', name:'Холодный салат из огурцов', desc:'凉拌黄瓜', price:0, img:null },
-  { id:'cs20', cat:'cold-snacks', name:'Огурцы с чесночным соусом', desc:'蒜泥黄瓜', price:0, img:null },
-  { id:'cs21', cat:'cold-snacks', name:'Холодный салат из брокколи', desc:'凉拌西兰花', price:0, img:null },
+{ id:'cs7',  cat:'cold-snacks', name:'Салат из древесных грибов с луком', desc:'洋葱木耳', price:0, img:null },
+{ id:'cs8',  cat:'cold-snacks', name:'Салат из шпината с грибами «Золотая игла»', desc:'菠菜金针菇', price:0, img:null },
+{ id:'cs9',  cat:'cold-snacks', name:'Острый холодный крахмальный салат', desc:'西安辣凉粉', price:0, img:null },
+{ id:'cs10', cat:'cold-snacks', name:'Холодный салат из говяжьего желудка', desc:'凉拌牛肚', price:0, img:null },
+{ id:'cs11', cat:'cold-snacks', name:'Арахис', desc:'花生米', price:0, img:null },
+{ id:'cs12', cat:'cold-snacks', name:'Салат из шпината с пшеничным глютеном', desc:'菠菜面筋', price:0, img:null },
+{ id:'cs13', cat:'cold-snacks', name:'Острый салат из кожи тофу', desc:'香辣豆腐皮', price:0, img:null },
+{ id:'cs14', cat:'cold-snacks', name:'Салат из шпината с арахисом', desc:'菠菜花生米', price:0, img:null },
+{ id:'cs15', cat:'cold-snacks', name:'Холодный салат из говядины', desc:'凉拌牛肉', price:0, img:null },
+{ id:'cs16', cat:'cold-snacks', name:'Кисло-острый салат из корня папоротника', desc:'酸辣蕨根粉', price:0, img:null },
+{ id:'cs17', cat:'cold-snacks', name:'Острый салат из фужу', desc:'凉拌腐竹', price:0, img:null },
+{ id:'cs18', cat:'cold-snacks', name:'Сычуаньская холодная курица', desc:'口水鸡', price:0, img:null },
+{ id:'cs19', cat:'cold-snacks', name:'Холодный салат из огурцов', desc:'凉拌黄瓜', price:0, img:null },
+{ id:'cs20', cat:'cold-snacks', name:'Огурцы с чесночным соусом', desc:'蒜泥黄瓜', price:0, img:null },
+{ id:'cs21', cat:'cold-snacks', name:'Холодный салат из брокколи', desc:'凉拌西兰花', price:0, img:null },
 
 
-  // =====================================================
-  // ГОРЯЧИЕ ЗАКУСКИ
-  // =====================================================
+// =====================================================
+// ГОРЯЧИЕ ЗАКУСКИ
+// =====================================================
 
-  { id:'hs1', cat:'hot-snacks', name:'Жареный чечил', desc:'', price:2190, img:'images/zhareniy-chechil.jpg' },
-  { id:'hs2', cat:'hot-snacks', name:'Гарлики', desc:'', price:2690, img:'images/garliki.jpg' },
-  { id:'hs3', cat:'hot-snacks', name:'Пивные креветки', desc:'', price:3290, img:'images/pivnye-krevetki.jpg' },
-  { id:'hs4', cat:'hot-snacks', name:'Хачапури по-аджарски', desc:'', price:0, img:'images/khachapuri-po-adzharski.jpg' },
-
-
-  // =====================================================
-  // ПИЦЦА
-  // =====================================================
-
-  { id:'p1', cat:'pizza', name:'Маргаритта', desc:'', price:2890, img:'images/margaritta.jpg' },
-  { id:'p2', cat:'pizza', name:'Пепперони', desc:'', price:3890, img:'images/pepperoni.jpg' },
-  { id:'p3', cat:'pizza', name:'Мексиканская', desc:'', price:4390, img:'images/meksikanskaya.jpg' },
-  { id:'p4', cat:'pizza', name:'Хачапури по-мингерски', desc:'', price:4590, img:'images/khachapuri-mingrelskiy.jpg' },
+{ id:'hs1', cat:'hot-snacks', name:'Жареный чечил', desc:'', price:2190, img:null },
+{ id:'hs2', cat:'hot-snacks', name:'Гарлики', desc:'', price:2690, img:'images/garlic-croutons.jpg' },
+{ id:'hs3', cat:'hot-snacks', name:'Пивные креветки', desc:'', price:3290, img:'images/beer-shrimp.jpg' },
+{ id:'hs4', cat:'hot-snacks', name:'Хачапури по-аджарски', desc:'', price:0, img:null },
 
 
-  // =====================================================
-  // СУПЫ
-  // =====================================================
+// =====================================================
+// ПИЦЦА
+// =====================================================
 
-  { id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:'images/tom-yam.jpg' },
-  { id:'su2', cat:'soups', name:'Рамен с сыром и курицей', desc:'', price:3990, img:'images/ramen-s-syrom-i-kuritsey.jpg' },
-
-  // Китайские супы
-
-  { id:'su3', cat:'soups', name:'Суп с морской капустой и яйцом', desc:'紫菜蛋花汤', price:0, img:null },
-  { id:'su4', cat:'soups', name:'Кисло-острый суп', desc:'酸辣汤', price:0, img:null },
-  { id:'su5', cat:'soups', name:'Томатный суп с яйцом', desc:'西红柿鸡蛋汤', price:0, img:null },
-
-  // Это блюдо было указано в разделе супов, но по названию это утка.
-  { id:'su6', cat:'soups', name:'Коушуй я — пряная утка', desc:'口水鸭', price:0, img:null },
+{ id:'p1', cat:'pizza', name:'Маргаритта', desc:'', price:2890, img:null },
+{ id:'p2', cat:'pizza', name:'Пепперони', desc:'', price:3890, img:'images/pepperoni.jpg' },
+{ id:'p3', cat:'pizza', name:'Мексиканская', desc:'', price:4390, img:'images/mexican-pizza.jpg' },
+{ id:'p4', cat:'pizza', name:'Хачапури по-мингерски', desc:'', price:4590, img:'images/hachapuri.megrelskiy.jpg' },
 
 
-  // =====================================================
-  // САЛАТЫ
-  // =====================================================
+// =====================================================
+// СУПЫ
+// =====================================================
 
-  { id:'sa1', cat:'salads', name:'Зелёный салат с авокадо', desc:'', price:0, img:'images/zeleniy-salat-s-avokado.jpg' },
-  { id:'sa2', cat:'salads', name:'Греческий салат', desc:'', price:3690, img:'images/grecheskiy-salat.jpg' },
-  { id:'sa3', cat:'salads', name:'Цезарь салат', desc:'', price:3890, img:'images/cezar-salat.jpg' },
-  { id:'sa4', cat:'salads', name:'Хрустящие баклажаны', desc:'', price:3890, img:'images/hrustyashchie-baklazhany.jpg' },
-  { id:'sa5', cat:'salads', name:'Салат Малибу', desc:'', price:2890, img:'images/salat-malibu.jpg' },
-  { id:'sa6', cat:'salads', name:'Салат Нисуаз с говяжьей вырезкой', desc:'', price:4790, img:'images/salat-nisuaz-s-govyazhey-vyrezkoy.jpg' },
-  { id:'sa7', cat:'salads', name:'Руккола с креветками', desc:'', price:4590, img:'images/rukkola-s-krevetkami.jpg' },
+{ id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:null },
+{ id:'su2', cat:'soups', name:'Рамен с сыром и курицей', desc:'', price:3990, img:'images/kurinniy.ramen.jpg' },
 
-
-  // =====================================================
-  // ВТОРЫЕ БЛЮДА
-  // =====================================================
-
-  { id:'m1', cat:'main', name:'Цыплёнок из печи с запечённым картофелем', desc:'', price:3890, img:'images/tsiplenok-iz-pechi.jpg' },
-  { id:'m2', cat:'main', name:'Мясо по-тайски', desc:'', price:3790, img:'images/myaso-po-tayski.jpg' },
-  { id:'m3', cat:'main', name:'Стейк Рибай', desc:'', price:7890, img:'images/steyk-ribay.jpg' },
-  { id:'m4', cat:'main', name:'Строганов с картофельным пюре', desc:'', price:3890, img:'images/stroganov-s-kartofelnym-pyure.jpg' },
-  { id:'m5', cat:'main', name:'Паста Альфредо', desc:'', price:3590, img:'images/pasta-alfredo.jpg' },
-  { id:'m6', cat:'main', name:'Паста с лососем и шпинатом', desc:'', price:3590, img:'images/pasta-s-lososem-i-shpinatom.jpg' },
-  { id:'m7', cat:'main', name:'Паста лассо со шпинатом', desc:'', price:3890, img:'images/pasta-lasso-so-shpinatom.jpg' },
-  { id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/kurinaya-grudka-s-gribnym-sousom.jpg' },
-  { id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:'images/tushenka-s-syrnymi-makaronami.jpg' },
-
-  // Китайские горячие блюда
-
-  { id:'m10', cat:'main', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:0, img:null },
-  { id:'m11', cat:'main', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:0, img:null },
-  { id:'m12', cat:'main', name:'Дапаньцзи', desc:'大盘鸡', price:0, img:null },
-  { id:'m13', cat:'main', name:'Чжунпаньцзи', desc:'中盘鸡', price:0, img:null },
-  { id:'m14', cat:'main', name:'Дапань с бараниной', desc:'大盘羊肉', price:0, img:null },
-  { id:'m15', cat:'main', name:'Баранина на железной плите', desc:'铁板羊排', price:0, img:null },
-  { id:'m16', cat:'main', name:'Мясо с зелёным луком', desc:'葱爆肉', price:0, img:null },
-  { id:'m17', cat:'main', name:'Жареный картофель с мясом', desc:'薯条炒肉', price:0, img:null },
-  { id:'m18', cat:'main', name:'Овощи с фунчозой и мясом', desc:'百菜粉条肉', price:0, img:null },
-  { id:'m19', cat:'main', name:'Мясо, жаренное с перцем', desc:'辣椒炒肉', price:0, img:null },
-  { id:'m20', cat:'main', name:'Мала сянго', desc:'麻辣香锅', price:0, img:null },
-  { id:'m21', cat:'main', name:'Жареная пекинская капуста', desc:'素炒上海心', price:0, img:null },
-  { id:'m22', cat:'main', name:'Жареные грибы', desc:'干炸蘑菇', price:0, img:null },
-  { id:'m23', cat:'main', name:'Брокколи с чесноком', desc:'蒜蓉西兰花', price:0, img:null },
-  { id:'m24', cat:'main', name:'Острый тофу', desc:'麻辣豆腐', price:0, img:null },
-  { id:'m25', cat:'main', name:'Жареная стручковая фасоль', desc:'干煸豆角', price:0, img:null },
-  { id:'m26', cat:'main', name:'Домашний тофу', desc:'家常豆腐', price:0, img:null },
-  { id:'m27', cat:'main', name:'Тофу в соусе Хуншао', desc:'红烧豆腐', price:0, img:null },
-  { id:'m28', cat:'main', name:'Жареные древесные грибы', desc:'素炒木耳', price:0, img:null },
-  { id:'m29', cat:'main', name:'Кунг Пао с курицей', desc:'宫保鸡丁', price:0, img:null },
-  { id:'m30', cat:'main', name:'Говядина на железной плите', desc:'铁板牛肉', price:0, img:null },
-  { id:'m31', cat:'main', name:'Курица на железной плите', desc:'铁板鸡片', price:0, img:null },
-  { id:'m32', cat:'main', name:'Рыба в соусе Хуншао', desc:'红烧鱼', price:0, img:null },
-  { id:'m33', cat:'main', name:'Жареный карп', desc:'干炸鲤鱼', price:0, img:null },
-  { id:'m34', cat:'main', name:'Куриные крылышки в соусе Кола', desc:'可乐鸡翅', price:0, img:null },
-  { id:'m35', cat:'main', name:'Острый жареный говяжий желудок', desc:'爆炒牛肚', price:0, img:null },
+{ id:'su3', cat:'soups', name:'Суп с морской капустой и яйцом', desc:'紫菜蛋花汤', price:0, img:null },
+{ id:'su4', cat:'soups', name:'Кисло-острый суп', desc:'酸辣汤', price:0, img:null },
+{ id:'su5', cat:'soups', name:'Томатный суп с яйцом', desc:'西红柿鸡蛋汤', price:0, img:null },
+{ id:'su6', cat:'soups', name:'Коушуй я — пряная утка', desc:'口水鸭', price:0, img:null },
 
 
-  // =====================================================
-  // ПИВНОЙ СЕТ
-  // =====================================================
+// =====================================================
+// САЛАТЫ
+// =====================================================
 
-  { id:'bs1', cat:'beer-set', name:'Пивной сет N-2', desc:'', price:6390, img:'images/pivnoy-set-n2.jpg' },
- 
-  { id:'bs2', cat:'beer-set', name:'Пивной сет N-3', desc:'', price:7890, img:'images/pivnoy-set-n2.jpg' },
+{ id:'sa1', cat:'salads', name:'Зелёный салат с авокадо', desc:'', price:0, img:'images/green-salad.jpg' },
+{ id:'sa2', cat:'salads', name:'Греческий салат', desc:'', price:3690, img:'images/greek-salad.jpg' },
+{ id:'sa3', cat:'salads', name:'Цезарь салат', desc:'', price:3890, img:'images/caesar-with-chicken.jpg' },
+{ id:'sa4', cat:'salads', name:'Хрустящие баклажаны', desc:'', price:3890, img:'images/crispy.baklazhani.jpg' },
+{ id:'sa5', cat:'salads', name:'Салат Малибу', desc:'', price:2890, img:'images/malibu.jpg' },
+{ id:'sa6', cat:'salads', name:'Салат Нисуаз с говяжьей вырезкой', desc:'', price:4790, img:'images/nicoise-with-beef-tenderloin.jpg' },
+{ id:'sa7', cat:'salads', name:'Руккола с креветками', desc:'', price:4590, img:'images/rukolla.s.krevetkami.jpg' },
 
 
-  // =====================================================
-  // ГАРНИРЫ И ХЛЕБ
-  // =====================================================
+// =====================================================
+// ВТОРЫЕ БЛЮДА
+// =====================================================
 
-  { id:'sd1', cat:'sides', name:'Рис', desc:'', price:790, img:'images/ris.jpg' },
-  { id:'sd2', cat:'sides', name:'Дольки', desc:'', price:1590, img:'images/dolki.jpg' },
-  { id:'sd3', cat:'sides', name:'Овощи на гриле', desc:'', price:1900, img:'images/ovoshchi-na-grile.jpg' },
-  { id:'sd4', cat:'sides', name:'Хлебная корзина', desc:'', price:890, img:'images/khlebnaya-korzina.jpg' },
-  { id:'sd5', cat:'sides', name:'Картофель фри', desc:'', price:1490, img:'images/kartofel-fri.jpg' }
+{ id:'m1', cat:'main', name:'Цыплёнок из печи с запечённым картофелем', desc:'', price:3890, img:'images/chicken-breast-with-mushroom-saute.jpg' },
+{ id:'m2', cat:'main', name:'Мясо по-тайски', desc:'', price:3790, img:'images/myaso.po.tayski.jpg' },
+{ id:'m3', cat:'main', name:'Стейк Рибай', desc:'', price:7890, img:'images/ribay.steyk.jpg' },
+{ id:'m4', cat:'main', name:'Строганов с картофельным пюре', desc:'', price:3890, img:'images/befstroganov.s.pure.jpg' },
+{ id:'m5', cat:'main', name:'Паста Альфредо', desc:'', price:3590, img:'images/pasta.alfredo.jpg' },
+{ id:'m6', cat:'main', name:'Паста с лососем и шпинатом', desc:'', price:3590, img:'images/pasta.s.lososem.i.shpinatom.jpg' },
+{ id:'m7', cat:'main', name:'Паста лассо со шпинатом', desc:'', price:3890, img:null },
+{ id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/chicken-breast-with-mushroom-saute.jpg' },
+{ id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:null },
 
+{ id:'m10', cat:'main', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:0, img:null },
+{ id:'m11', cat:'main', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:0, img:null },
+{ id:'m12', cat:'main', name:'Дапаньцзи', desc:'大盘鸡', price:0, img:'images/dapanji.jpg' },
+{ id:'m13', cat:'main', name:'Чжунпаньцзи', desc:'中盘鸡', price:0, img:null },
+{ id:'m14', cat:'main', name:'Дапань с бараниной', desc:'大盘羊肉', price:0, img:null },
+{ id:'m15', cat:'main', name:'Баранина на железной плите', desc:'铁板羊排', price:0, img:null },
+{ id:'m16', cat:'main', name:'Мясо с зелёным луком', desc:'葱爆肉', price:0, img:null },
+{ id:'m17', cat:'main', name:'Жареный картофель с мясом', desc:'薯条炒肉', price:0, img:null },
+{ id:'m18', cat:'main', name:'Овощи с фунчозой и мясом', desc:'百菜粉条肉', price:0, img:null },
+{ id:'m19', cat:'main', name:'Мясо, жаренное с перцем', desc:'辣椒炒肉', price:0, img:null },
+{ id:'m20', cat:'main', name:'Мала сянго', desc:'麻辣香锅', price:0, img:null },
+{ id:'m21', cat:'main', name:'Жареная пекинская капуста', desc:'素炒上海心', price:0, img:null },
+{ id:'m22', cat:'main', name:'Жареные грибы', desc:'干炸蘑菇', price:0, img:null },
+{ id:'m23', cat:'main', name:'Брокколи с чесноком', desc:'蒜蓉西兰花', price:0, img:null },
+{ id:'m24', cat:'main', name:'Острый тофу', desc:'麻辣豆腐', price:0, img:null },
+{ id:'m25', cat:'main', name:'Жареная стручковая фасоль', desc:'干煸豆角', price:0, img:null },
+{ id:'m26', cat:'main', name:'Домашний тофу', desc:'家常豆腐', price:0, img:null },
+{ id:'m27', cat:'main', name:'Тофу в соусе Хуншао', desc:'红烧豆腐', price:0, img:null },
+{ id:'m28', cat:'main', name:'Жареные древесные грибы', desc:'素炒木耳', price:0, img:null },
+{ id:'m29', cat:'main', name:'Кунг Пао с курицей', desc:'宫保鸡丁', price:0, img:null },
+{ id:'m30', cat:'main', name:'Говядина на железной плите', desc:'铁板牛肉', price:0, img:null },
+{ id:'m31', cat:'main', name:'Курица на железной плите', desc:'铁板鸡片', price:0, img:null },
+{ id:'m32', cat:'main', name:'Рыба в соусе Хуншао', desc:'红烧鱼', price:0, img:null },
+{ id:'m33', cat:'main', name:'Жареный карп', desc:'干炸鲤鱼', price:0, img:null },
+{ id:'m34', cat:'main', name:'Куриные крылышки в соусе Кола', desc:'可乐鸡翅', price:0, img:null },
+{ id:'m35', cat:'main', name:'Острый жареный говяжий желудок', desc:'爆炒牛肚', price:0, img:null },
+
+
+// =====================================================
+// ПИВНОЙ СЕТ
+// =====================================================
+
+{ id:'bs1', cat:'beer-set', name:'Пивной сет N-2', desc:'', price:6390, img:null },
+{ id:'bs2', cat:'beer-set', name:'Пивной сет N-3', desc:'', price:7890, img:null },
+
+
+// =====================================================
+// ГАРНИРЫ И ХЛЕБ
+// =====================================================
+
+{ id:'sd1', cat:'sides', name:'Рис', desc:'', price:790, img:'images/ris.jpg' },
+{ id:'sd2', cat:'sides', name:'Дольки', desc:'', price:1590, img:'images/kartofelnie.dolki.jpg' },
+{ id:'sd3', cat:'sides', name:'Овощи на гриле', desc:'', price:1900, img:'images/ovoshi.na.grile.jpg' },
+{ id:'sd4', cat:'sides', name:'Хлебная корзина', desc:'', price:890, img:null },
+{ id:'sd5', cat:'sides', name:'Картофель фри', desc:'', price:1490, img:'images/kartofel.fri.jpg' }
 ];
  
 /* ---------------- STATE ---------------- */
