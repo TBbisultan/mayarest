@@ -102,7 +102,7 @@ const ITEMS = [
 
 { id:'m10', cat:'main', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:7690, img:'images/chongqing-laziji.jpg' },
 { id:'m11', cat:'main', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:6990, img:'images/xinjiang-laziji.jpg' },
-{ id:'m12', cat:'main', name:'Дапаньцзи', desc:'大盘鸡', price:0, img:'images/dapanji.jpg' },
+{ id:'m12', cat:'main', name:'Дапаньцзи', desc:'大盘鸡', price:14990, img:'images/dapanji.jpg' },
 { id:'m19', cat:'main', name:'Лажау Чауру', desc:'辣椒炒肉', price:4190, img:'images/lajiao-chaorou.jpg' },
 { id:'m25', cat:'main', name:'Ганьбянь Дужау', desc:'干煸豆角', price:4790, img:'images/ganbian-doujiao.jpg' },
 { id:'m29', cat:'main', name:'Гунбао Жидин', desc:'宫保鸡丁', price:3290, img:'images/gongbao-jiding.jpg' },
