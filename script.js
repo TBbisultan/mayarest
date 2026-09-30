@@ -1,6 +1,7 @@
 
 /* ---------------- DATA ---------------- */
 const CATEGORIES= [
+  { id:'china', name:'Китай меню' },
   { id:'cold-snacks', name:'Холодные закуски' },
   { id:'hot-snacks',  name:'Горячие закуски' },
   { id:'pizza',       name:'Пицца' },
@@ -13,6 +14,42 @@ const CATEGORIES= [
 
 const ITEMS = [
 
+// =====================================================
+// КИТАЙ МЕНЮ
+// =====================================================
+
+{ id:'m10', cat:'china', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:7690, img:'images/chongqing-laziji.jpg' },
+{ id:'m11', cat:'china', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:6990, img:'images/xinjiang-laziji.jpg' },
+{ id:'m12', cat:'china', name:'Дапаньцзи', desc:'大盘鸡', price:14990, img:'images/dapanji.jpg' },
+{ id:'m19', cat:'china', name:'Лажау Чауру', desc:'辣椒炒肉', price:4190, img:'images/lajiao-chaorou.jpg' },
+{ id:'m25', cat:'china', name:'Ганьбянь Дужау', desc:'干煸豆角', price:4790, img:'images/ganbian-doujiao.jpg' },
+{ id:'m29', cat:'china', name:'Гунбао Жидин', desc:'宫保鸡丁', price:3290, img:'images/gongbao-jiding.jpg' },
+{ id:'m30', cat:'china', name:'Тебань Ру', desc:'铁板牛肉', price:5990, img:'images/tieban-niurou.jpg' },
+{ id:'m32', cat:'china', name:'Хуншау Юй', desc:'红烧鱼', price:11990, img:'images/hongshao-yu.jpg' },
+
+{ id:'su3', cat:'china', name:'Суп с морской капустой и яйцом', desc:'紫菜蛋花汤', price:0, img:null },
+{ id:'su4', cat:'china', name:'Кисло-острый суп', desc:'酸辣汤', price:0, img:null },
+{ id:'su5', cat:'china', name:'Томатный суп с яйцом', desc:'西红柿鸡蛋汤', price:0, img:null },
+{ id:'su6', cat:'china', name:'Коушуй я — пряная утка', desc:'口水鸭', price:0, img:null },
+
+{ id:'cs7',  cat:'china', name:'Салат из древесных грибов с луком', desc:'洋葱木耳', price:0, img:null },
+{ id:'cs8',  cat:'china', name:'Салат из шпината с грибами «Золотая игла»', desc:'菠菜金针菇', price:0, img:null },
+{ id:'cs9',  cat:'china', name:'Острый холодный крахмальный салат', desc:'西安辣凉粉', price:0, img:null },
+{ id:'cs10', cat:'china', name:'Холодный салат из говяжьего желудка', desc:'凉拌牛肚', price:0, img:null },
+{ id:'cs11', cat:'china', name:'Арахис', desc:'花生米', price:0, img:null },
+{ id:'cs12', cat:'china', name:'Салат из шпината с пшеничным глютеном', desc:'菠菜面筋', price:0, img:null },
+{ id:'cs13', cat:'china', name:'Острый салат из кожи тофу', desc:'香辣豆腐皮', price:0, img:null },
+{ id:'cs14', cat:'china', name:'Салат из шпината с арахисом', desc:'菠菜花生米', price:0, img:null },
+{ id:'cs15', cat:'china', name:'Холодный салат из говядины', desc:'凉拌牛肉', price:0, img:null },
+{ id:'cs16', cat:'china', name:'Кисло-острый салат из корня папоротника', desc:'酸辣蕨根粉', price:0, img:null },
+{ id:'cs17', cat:'china', name:'Острый салат из фужу', desc:'凉拌腐竹', price:0, img:null },
+{ id:'cs18', cat:'china', name:'Сычуаньская холодная курица', desc:'口水鸡', price:0, img:null },
+{ id:'cs19', cat:'china', name:'Холодный салат из огурцов', desc:'凉拌黄瓜', price:0, img:null },
+{ id:'cs20', cat:'china', name:'Огурцы с чесночным соусом', desc:'蒜泥黄瓜', price:0, img:null },
+{ id:'cs21', cat:'china', name:'Холодный салат из брокколи', desc:'凉拌西兰花', price:0, img:null },
+
+
+  
 // =====================================================
 // ХОЛОДНЫЕ ЗАКУСКИ
 // =====================================================
