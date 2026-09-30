@@ -59,21 +59,6 @@ const ITEMS = [
 { id:'cs5', cat:'cold-snacks', name:'Брускетта с лососем', desc:'', price:3890, img:'images/salmon-bruschetta.jpg' },
 { id:'cs6', cat:'cold-snacks', name:'Мясной микс', desc:'', price:0, img:null },
 
-{ id:'cs7',  cat:'cold-snacks', name:'Салат из древесных грибов с луком', desc:'洋葱木耳', price:0, img:null },
-{ id:'cs8',  cat:'cold-snacks', name:'Салат из шпината с грибами «Золотая игла»', desc:'菠菜金针菇', price:0, img:null },
-{ id:'cs9',  cat:'cold-snacks', name:'Острый холодный крахмальный салат', desc:'西安辣凉粉', price:0, img:null },
-{ id:'cs10', cat:'cold-snacks', name:'Холодный салат из говяжьего желудка', desc:'凉拌牛肚', price:0, img:null },
-{ id:'cs11', cat:'cold-snacks', name:'Арахис', desc:'花生米', price:0, img:null },
-{ id:'cs12', cat:'cold-snacks', name:'Салат из шпината с пшеничным глютеном', desc:'菠菜面筋', price:0, img:null },
-{ id:'cs13', cat:'cold-snacks', name:'Острый салат из кожи тофу', desc:'香辣豆腐皮', price:0, img:null },
-{ id:'cs14', cat:'cold-snacks', name:'Салат из шпината с арахисом', desc:'菠菜花生米', price:0, img:null },
-{ id:'cs15', cat:'cold-snacks', name:'Холодный салат из говядины', desc:'凉拌牛肉', price:0, img:null },
-{ id:'cs16', cat:'cold-snacks', name:'Кисло-острый салат из корня папоротника', desc:'酸辣蕨根粉', price:0, img:null },
-{ id:'cs17', cat:'cold-snacks', name:'Острый салат из фужу', desc:'凉拌腐竹', price:0, img:null },
-{ id:'cs18', cat:'cold-snacks', name:'Сычуаньская холодная курица', desc:'口水鸡', price:0, img:null },
-{ id:'cs19', cat:'cold-snacks', name:'Холодный салат из огурцов', desc:'凉拌黄瓜', price:0, img:null },
-{ id:'cs20', cat:'cold-snacks', name:'Огурцы с чесночным соусом', desc:'蒜泥黄瓜', price:0, img:null },
-{ id:'cs21', cat:'cold-snacks', name:'Холодный салат из брокколи', desc:'凉拌西兰花', price:0, img:null },
 
 
 // =====================================================
@@ -102,11 +87,6 @@ const ITEMS = [
 
 { id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:null },
 { id:'su2', cat:'soups', name:'Рамен с сыром и курицей', desc:'', price:3990, img:'images/kurinniy.ramen.jpg' },
-
-{ id:'su3', cat:'soups', name:'Суп с морской капустой и яйцом', desc:'紫菜蛋花汤', price:0, img:null },
-{ id:'su4', cat:'soups', name:'Кисло-острый суп', desc:'酸辣汤', price:0, img:null },
-{ id:'su5', cat:'soups', name:'Томатный суп с яйцом', desc:'西红柿鸡蛋汤', price:0, img:null },
-{ id:'su6', cat:'soups', name:'Коушуй я — пряная утка', desc:'口水鸭', price:0, img:null },
 
 
 // =====================================================
@@ -137,14 +117,6 @@ const ITEMS = [
 { id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/chicken-breast-with-mushroom-saute.jpg' },
 { id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:null },
 
-{ id:'m10', cat:'main', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:7690, img:'images/chongqing-laziji.jpg' },
-{ id:'m11', cat:'main', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:6990, img:'images/xinjiang-laziji.jpg' },
-{ id:'m12', cat:'main', name:'Дапаньцзи', desc:'大盘鸡', price:14990, img:'images/dapanji.jpg' },
-{ id:'m19', cat:'main', name:'Лажау Чауру', desc:'辣椒炒肉', price:4190, img:'images/lajiao-chaorou.jpg' },
-{ id:'m25', cat:'main', name:'Ганьбянь Дужау', desc:'干煸豆角', price:4790, img:'images/ganbian-doujiao.jpg' },
-{ id:'m29', cat:'main', name:'Гунбао Жидин', desc:'宫保鸡丁', price:3290, img:'images/gongbao-jiding.jpg' },
-{ id:'m30', cat:'main', name:'Тебань Ру', desc:'铁板牛肉', price:5990, img:'images/tieban-niurou.jpg' },
-{ id:'m32', cat:'main', name:'Хуншау Юй', desc:'红烧鱼', price:11990, img:'images/hongshao-yu.jpg' },
 
 
 // =====================================================
