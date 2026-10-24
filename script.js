@@ -98,13 +98,14 @@ const ITEMS = [
 { id:'p2', cat:'pizza', name:'Маргаритта', desc:'', price:3890, img:'images/pepperoni.jpg' },
 { id:'p3', cat:'pizza', name:'Мексиканская', desc:'', price:4390, img:'images/mexican-pizza.jpg' },
 { id:'p4', cat:'pizza', name:'Хачапури по-мингерски', desc:'', price:4590, img:'images/hachapuri.megrelskiy.jpg' },
+  { id:'p5', cat:'pizza', name:'Кесадилья с курицей', desc:'', price:3990, img:'images/quesadilla-s-kuritsey.jpg' },
 
 
 // =====================================================
 // СУПЫ
 // =====================================================
 
-{ id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:'images/tomyam.jpg' },
+{ id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:'images/tomyan.jpg' },
 { id:'su2', cat:'soups', name:'Рамен с сыром и курицей', desc:'', price:3990, img:'images/kurinniy.ramen.jpg' },
 { id:'su3', cat:'soups', name:'Зсай Данхуа Тан', desc:'紫菜蛋花汤', price:3990, img:'images/zicai-danhua-tang.jpg' },
 { id:'su4', cat:'soups', name:'Суанла Тан', desc:'酸辣烫', price:4390, img:'images/suanla-tang.jpg' },
@@ -140,6 +141,7 @@ const ITEMS = [
 { id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:null },
   { id:'m33', cat:'main', name:'Курица в сливочном соусе с рисом', desc:'', price:4990, img:'images/kuritsa-slivochny-sous-ris.jpg' },
 { id:'m34', cat:'main', name:'Курица в кисло-сладком соусе с рисом', desc:'', price:4990, img:'images/kuritsa-kislo-sladky-sous-ris.jpg' },
+  { id:'m35', cat:'main', name:'Паста Болоньезе', desc:'', price:4590, img:'images/pasta-bolonezе.jpg' },
 
 
 
