@@ -94,8 +94,8 @@ const ITEMS = [
 // ПИЦЦА
 // =====================================================
 
-{ id:'p1', cat:'pizza', name:'Маргаритта', desc:'', price:2890, img:null },
-{ id:'p2', cat:'pizza', name:'Пепперони', desc:'', price:3890, img:'images/pepperoni.jpg' },
+{ id:'p1', cat:'pizza', name:'Пепперонни', desc:'', price:2890, img:'images/margariri.jpg' },
+{ id:'p2', cat:'pizza', name:'Маргаритта', desc:'', price:3890, img:'images/pepperoni.jpg' },
 { id:'p3', cat:'pizza', name:'Мексиканская', desc:'', price:4390, img:'images/mexican-pizza.jpg' },
 { id:'p4', cat:'pizza', name:'Хачапури по-мингерски', desc:'', price:4590, img:'images/hachapuri.megrelskiy.jpg' },
 
@@ -104,9 +104,12 @@ const ITEMS = [
 // СУПЫ
 // =====================================================
 
-{ id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:null },
+{ id:'su1', cat:'soups', name:'Том Ям', desc:'', price:3990, img:'images/tomyam.jpg' },
 { id:'su2', cat:'soups', name:'Рамен с сыром и курицей', desc:'', price:3990, img:'images/kurinniy.ramen.jpg' },
-
+{ id:'su3', cat:'soups', name:'Зсай Данхуа Тан', desc:'紫菜蛋花汤', price:3990, img:'images/zicai-danhua-tang.jpg' },
+{ id:'su4', cat:'soups', name:'Суанла Тан', desc:'酸辣烫', price:4390, img:'images/suanla-tang.jpg' },
+{ id:'su5', cat:'soups', name:'Шихоңш Жидан Тан', desc:'西红柿鸡蛋汤', price:3890, img:'images/xihongshi-jidan-tang.jpg' },
+  { id:'su6', cat:'soups', name:'Грибной крем суп', desc:'', price:2980, img:'images/gribnoy-krem-sup.jpg' },
 
 // =====================================================
 // САЛАТЫ
@@ -119,6 +122,7 @@ const ITEMS = [
 { id:'sa5', cat:'salads', name:'Салат Малибу', desc:'', price:2890, img:'images/malibu.jpg' },
 { id:'sa6', cat:'salads', name:'Салат Нисуаз с говяжьей вырезкой', desc:'', price:4790, img:'images/nicoise-with-beef-tenderloin.jpg' },
 { id:'sa7', cat:'salads', name:'Руккола с креветками', desc:'', price:4590, img:'images/rukolla.s.krevetkami.jpg' },
+  { id:'sa8', cat:'salads', name:'Гнездо глухаря', desc:'', price:3990, img:'images/gnezdo-gluharya.jpg' },
 
 
 // =====================================================
@@ -134,6 +138,8 @@ const ITEMS = [
 { id:'m7', cat:'main', name:'Паста лассо со шпинатом', desc:'', price:3890, img:null },
 { id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/chicken-breast-with-mushroom-saute.jpg' },
 { id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:null },
+  { id:'m33', cat:'main', name:'Курица в сливочном соусе с рисом', desc:'', price:4990, img:'images/kuritsa-slivochny-sous-ris.jpg' },
+{ id:'m34', cat:'main', name:'Курица в кисло-сладком соусе с рисом', desc:'', price:4990, img:'images/kuritsa-kislo-sladky-sous-ris.jpg' },
 
 
 
@@ -141,8 +147,8 @@ const ITEMS = [
 // ПИВНОЙ СЕТ
 // =====================================================
 
-{ id:'bs1', cat:'beer-set', name:'Пивной сет N-2', desc:'', price:6390, img:null },
-{ id:'bs2', cat:'beer-set', name:'Пивной сет N-3', desc:'', price:7890, img:null },
+{ id:'bs1', cat:'beer-set', name:'Пивной сет N-2', desc:'', price:6390, img:'images/pivset1.jpg' },
+{ id:'bs2', cat:'beer-set', name:'Пивной сет N-3', desc:'', price:7890, img:'images/pivset1.jpg' },
 
 
 // =====================================================
