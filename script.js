@@ -1,7 +1,8 @@
 
 /* ---------------- DATA ---------------- */
 const CATEGORIES= [
-  { id:'china', name:'Китай меню' },
+  { id:'china',       name:'Горячее(китай)' },
+  { id:'china-cold',  name:'Холодное(китай)' },
   { id:'cold-snacks', name:'Холодные закуски' },
   { id:'hot-snacks',  name:'Горячие закуски' },
   { id:'pizza',       name:'Пицца' },
@@ -15,38 +16,56 @@ const CATEGORIES= [
 const ITEMS = [
 
 // =====================================================
-// КИТАЙ МЕНЮ
+// ГОРЯЧЕЕ (КИТАЙ)
 // =====================================================
 
-{ id:'m10', cat:'china', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:7690, img:'images/chongqing-laziji.jpg' },
-{ id:'m11', cat:'china', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:6990, img:'images/xinjiang-laziji.jpg' },
+{ id:'m10', cat:'china', name:'Чунцин Лазжи', desc:'重庆辣子鸡', price:7890, img:'images/chongqing-laziji.jpg' },
+{ id:'m11', cat:'china', name:'Синьцзян Лазжи', desc:'新疆辣子鸡', price:7590, img:'images/xinjiang-laziji.jpg' },
 { id:'m12', cat:'china', name:'Дапаньцзи', desc:'大盘鸡', price:14990, img:'images/dapanji.jpg' },
-{ id:'m19', cat:'china', name:'Лажау Чауру', desc:'辣椒炒肉', price:4190, img:'images/lajiao-chaorou.jpg' },
+{ id:'ch1', cat:'china', name:'Дапаньцзи (маленький)', desc:'大盘鸡', price:9990, img:'images/dapanji-small.jpg' },
+{ id:'ch2', cat:'china', name:'Дапан Янжоу', desc:'大盘羊肉', price:18690, img:'images/dapan-yangrou.jpg' },
+{ id:'m19', cat:'china', name:'Лажау Чауру', desc:'辣椒炒肉', price:4590, img:'images/lajiao-chaorou.jpg' },
 { id:'m25', cat:'china', name:'Ганьбянь Дужау', desc:'干煸豆角', price:4790, img:'images/ganbian-doujiao.jpg' },
-{ id:'m29', cat:'china', name:'Гунбао Жидин', desc:'宫保鸡丁', price:3290, img:'images/gongbao-jiding.jpg' },
+{ id:'m29', cat:'china', name:'Гунбао Жидин', desc:'宫爆鸡丁', price:3790, img:'images/gongbao-jiding.jpg' },
 { id:'m30', cat:'china', name:'Тебань Ру', desc:'铁板牛肉', price:5990, img:'images/tieban-niurou.jpg' },
-{ id:'m32', cat:'china', name:'Хуншау Юй', desc:'红烧鱼', price:11990, img:'images/hongshao-yu.jpg' },
+{ id:'m32', cat:'china', name:'Хуншау Юй', desc:'红烧鱼', price:13890, img:'images/hongshao-yu.jpg' },
+{ id:'ch3', cat:'china', name:'Тебань Янпай', desc:'铁板羊排', price:5690, img:'images/tieban-yangpai.jpg' },
+{ id:'ch4', cat:'china', name:'Тебань Жи', desc:'铁板鸡片', price:3690, img:'images/tieban-jipian.jpg' },
+{ id:'ch5', cat:'china', name:'Ганжа Уй', desc:'干炸鱼', price:11990, img:'images/ganzha-yu.jpg' },
+{ id:'ch6', cat:'china', name:'Коло Жичы', desc:'可乐鸡翅', price:3690, img:'images/kele-jichi.jpg' },
+{ id:'ch7', cat:'china', name:'Мала Шиаң Го', desc:'麻辣香锅', price:7890, img:'images/mala-xiangguo.jpg' },
+{ id:'ch8', cat:'china', name:'Байсай Фын Тиау Ру', desc:'白菜粉条肉', price:4690, img:'images/baicai-fentiao-rou.jpg' },
+{ id:'ch9', cat:'china', name:'Цоң Бау Ру', desc:'葱爆肉', price:4690, img:'images/congbao-rou.jpg' },
+{ id:'ch10', cat:'china', name:'Шутиау Чауру', desc:'', price:3990, img:'images/shutiao-chaorou.jpg' },
+{ id:'ch11', cat:'china', name:'Сучау Шаңхай Чиң', desc:'素炒上海青', price:3490, img:'images/su-chao-shanghaiqing.jpg' },
+{ id:'ch12', cat:'china', name:'Суанроң Шиланхуа', desc:'蒜蓉西兰花', price:3490, img:'images/suanrong-xilanhua.jpg' },
+{ id:'ch13', cat:'china', name:'Сучау Муыр', desc:'素炒木耳', price:3390, img:'images/su-chao-muer.jpg' },
+{ id:'ch14', cat:'china', name:'Ганжа Могү', desc:'干炸蘑菇', price:2890, img:'images/ganzha-mogu.jpg' },
+{ id:'ch15', cat:'china', name:'Мала Дуфу', desc:'麻辣豆腐', price:3690, img:'images/mala-doufu.jpg' },
+{ id:'ch16', cat:'china', name:'Жачаң Дуфу', desc:'家常豆腐', price:3990, img:'images/jiachang-doufu.jpg' },
+{ id:'ch17', cat:'china', name:'Хоңшау Дуфу', desc:'红烧豆腐', price:3890, img:'images/hongshao-doufu.jpg' },
 
-{ id:'su3', cat:'china', name:'Суп с морской капустой и яйцом', desc:'紫菜蛋花汤', price:0, img:null },
-{ id:'su4', cat:'china', name:'Кисло-острый суп', desc:'酸辣汤', price:0, img:null },
-{ id:'su5', cat:'china', name:'Томатный суп с яйцом', desc:'西红柿鸡蛋汤', price:0, img:null },
-{ id:'su6', cat:'china', name:'Коушуй я — пряная утка', desc:'口水鸭', price:0, img:null },
 
-{ id:'cs7',  cat:'china', name:'Салат из древесных грибов с луком', desc:'洋葱木耳', price:0, img:null },
-{ id:'cs8',  cat:'china', name:'Салат из шпината с грибами «Золотая игла»', desc:'菠菜金针菇', price:0, img:null },
-{ id:'cs9',  cat:'china', name:'Острый холодный крахмальный салат', desc:'西安辣凉粉', price:0, img:null },
-{ id:'cs10', cat:'china', name:'Холодный салат из говяжьего желудка', desc:'凉拌牛肚', price:0, img:null },
-{ id:'cs11', cat:'china', name:'Арахис', desc:'花生米', price:0, img:null },
-{ id:'cs12', cat:'china', name:'Салат из шпината с пшеничным глютеном', desc:'菠菜面筋', price:0, img:null },
-{ id:'cs13', cat:'china', name:'Острый салат из кожи тофу', desc:'香辣豆腐皮', price:0, img:null },
-{ id:'cs14', cat:'china', name:'Салат из шпината с арахисом', desc:'菠菜花生米', price:0, img:null },
-{ id:'cs15', cat:'china', name:'Холодный салат из говядины', desc:'凉拌牛肉', price:0, img:null },
-{ id:'cs16', cat:'china', name:'Кисло-острый салат из корня папоротника', desc:'酸辣蕨根粉', price:0, img:null },
-{ id:'cs17', cat:'china', name:'Острый салат из фужу', desc:'凉拌腐竹', price:0, img:null },
-{ id:'cs18', cat:'china', name:'Сычуаньская холодная курица', desc:'口水鸡', price:0, img:null },
-{ id:'cs19', cat:'china', name:'Холодный салат из огурцов', desc:'凉拌黄瓜', price:0, img:null },
-{ id:'cs20', cat:'china', name:'Огурцы с чесночным соусом', desc:'蒜泥黄瓜', price:0, img:null },
-{ id:'cs21', cat:'china', name:'Холодный салат из брокколи', desc:'凉拌西兰花', price:0, img:null },
+// =====================================================
+// ХОЛОДНОЕ (КИТАЙ)
+// =====================================================
+
+{ id:'cs7',  cat:'china-cold', name:'Иаңсоң Муар', desc:'洋葱木耳', price:2490, img:'images/yangcong-muer.jpg' },
+{ id:'cs8',  cat:'china-cold', name:'Босай Жинжін Гү', desc:'菠菜金针菇', price:2890, img:'images/bocai-jinzhengu.jpg' },
+{ id:'cs9',  cat:'china-cold', name:'Ла Лянфн', desc:'西安辣凉粉', price:2390, img:'images/xian-laliangfen.jpg' },
+{ id:'cs10', cat:'china-cold', name:'Лянбан Ниуду', desc:'凉拌牛肚', price:3990, img:'images/liangban-niudu.jpg' },
+{ id:'cs11', cat:'china-cold', name:'Хуа Шың Ми', desc:'花生米', price:2190, img:'images/huashengmi.jpg' },
+{ id:'cs12', cat:'china-cold', name:'Босай Мян Жин', desc:'菠菜面筋', price:2790, img:'images/bocai-mianjin.jpg' },
+{ id:'cs13', cat:'china-cold', name:'Шиаңла Дуфупи', desc:'香辣豆腐皮', price:2690, img:'images/xiangla-doufupi.jpg' },
+{ id:'cs14', cat:'china-cold', name:'Босай Хуашың Ми', desc:'菠菜花生米', price:2790, img:'images/bocai-huashengmi.jpg' },
+{ id:'cs15', cat:'china-cold', name:'Лянбан Ниу Ру', desc:'凉拌牛肉', price:6890, img:'images/liangban-niurou.jpg' },
+{ id:'cs16', cat:'china-cold', name:'Суанла Жөгін Фн', desc:'酸辣蕨根粉', price:2890, img:'images/suanla-juegenfen.jpg' },
+{ id:'cs17', cat:'china-cold', name:'Лянбан Фужу', desc:'凉拌腐竹', price:2690, img:'images/liangban-fuzhu.jpg' },
+{ id:'cs18', cat:'china-cold', name:'Коу Шуи Жи', desc:'口水鸡', price:3890, img:'images/koushui-ji.jpg' },
+{ id:'cs19', cat:'china-cold', name:'Лянбан Хуаңгуа', desc:'凉拌黄瓜', price:2690, img:'images/liangban-huanggua.jpg' },
+{ id:'cs20', cat:'china-cold', name:'Суанни Хуаңгуа', desc:'蒜泥黄瓜', price:2890, img:'images/suanni-huanggua.jpg' },
+{ id:'cs21', cat:'china-cold', name:'Лянбан Шилан Хуа', desc:'凉拌西兰花', price:2990, img:'images/liangban-xilanhua.jpg' },
+
 
 
   
@@ -92,9 +111,8 @@ const ITEMS = [
 // =====================================================
 // САЛАТЫ
 // =====================================================
-{ id:'cs3', cat:'salads', name:'Зелёный салат', desc:'', price:3890, img:'images/green-salad.jpg' },
+
 { id:'cs4', cat:'salads', name:'Фруктовый салат', desc:'', price:3690, img:'images/fruit-salad.jpg' },
-{ id:'sa1', cat:'salads', name:'Зелёный салат с авокадо', desc:'', price:0, img:'images/green-salad.jpg' },
 { id:'sa2', cat:'salads', name:'Греческий салат', desc:'', price:3690, img:'images/greek-salad.jpg' },
 { id:'sa3', cat:'salads', name:'Цезарь салат', desc:'', price:3890, img:'images/caesar-with-chicken.jpg' },
 { id:'sa4', cat:'salads', name:'Хрустящие баклажаны', desc:'', price:3890, img:'images/crispy.baklazhani.jpg' },
