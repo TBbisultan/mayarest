@@ -162,12 +162,11 @@ const ITEMS = [
 // =====================================================
 // ГАРНИРЫ И ХЛЕБ
 // =====================================================
-
+{ id:'sd4', cat:'sides', name:'Хлебная корзина', desc:'', price:890, img:'images/hlebnaya-korzina.jpg' },
 { id:'sd1', cat:'sides', name:'Рис', desc:'', price:790, img:'images/ris.jpg' },
 { id:'sd2', cat:'sides', name:'Дольки', desc:'', price:1590, img:'images/kartofelnie.dolki.jpg' },
 { id:'sd3', cat:'sides', name:'Овощи на гриле', desc:'', price:1900, img:'images/ovoshi.na.grile.jpg' },
 { id:'sd5', cat:'sides', name:'Картофель фри', desc:'', price:1490, img:'images/kartofel.fri.jpg' }
-{ id:'sd4', cat:'sides', name:'Хлебная корзина', desc:'', price:890, img:'images/hlebnaya-korzina.jpg' },
 ];
  
 /* ---------------- STATE ---------------- */
