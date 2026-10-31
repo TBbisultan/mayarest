@@ -9,7 +9,6 @@ const CATEGORIES= [
   { id:'soups',       name:'Супы' },
   { id:'salads',      name:'Салаты' },
   { id:'main',        name:'Вторые блюда' },
-  { id:'beer-set',    name:'Пивной сет' },
   { id:'sides',       name:'Гарниры и хлеб' },
 ];
 
@@ -44,6 +43,7 @@ const ITEMS = [
 { id:'ch15', cat:'china', name:'Мала Дуфу', desc:'麻辣豆腐', price:3690, img:'images/mala-doufu.jpg' },
 { id:'ch16', cat:'china', name:'Жачаң Дуфу', desc:'家常豆腐', price:3990, img:'images/jiachang-doufu.jpg' },
 { id:'ch17', cat:'china', name:'Хоңшау Дуфу', desc:'红烧豆腐', price:3890, img:'images/hongshao-doufu.jpg' },
+  { id:'ch18', cat:'china', name:'Баучау Ниуду', desc:'爆炒牛肚', price:4290, img:'images/baochao-niudu.jpg' },
 
 
 // =====================================================
@@ -77,6 +77,11 @@ const ITEMS = [
 { id:'cs2', cat:'cold-snacks', name:'Фруктовый ассорти', desc:'', price:7890, img:'images/fruit-assortment.jpg' },
 { id:'cs5', cat:'cold-snacks', name:'Брускетта с лососем', desc:'', price:3890, img:'images/salmon-bruschetta.jpg' },
 { id:'cs6', cat:'cold-snacks', name:'Мясной микс', desc:'', price:0, img:null },
+  { id:'cs22', cat:'cold-snacks', name:'Кавказская нарезка', desc:'', price:3990, img:'images/kavkazskaya-narezka.jpg' },
+{ id:'cs23', cat:'cold-snacks', name:'Закуска со шпротами', desc:'', price:2990, img:'images/zakuska-so-shprotami.jpg' },
+  { id:'cs24', cat:'cold-snacks', name:'Пивной сет N-1', desc:'', price:6390, img:'images/pivset1.jpg' },
+{ id:'cs25', cat:'cold-snacks', name:'Пивной сет N-3', desc:'', price:8290, img:'images/pivset3.jpg' },
+
 
 
 
@@ -84,21 +89,28 @@ const ITEMS = [
 // ГОРЯЧИЕ ЗАКУСКИ
 // =====================================================
 
-{ id:'hs1', cat:'hot-snacks', name:'Жареный чечил', desc:'', price:2190, img:null },
+{ id:'hs1', cat:'hot-snacks', name:'Жареный чечил', desc:'', price:2190, img:'images/zharrenichechel.jpg' },
 { id:'hs2', cat:'hot-snacks', name:'Гарлики', desc:'', price:2690, img:'images/garlic-croutons.jpg' },
 { id:'hs3', cat:'hot-snacks', name:'Пивные креветки', desc:'', price:3290, img:'images/beer-shrimp.jpg' },
-{ id:'hs4', cat:'hot-snacks', name:'Хачапури по-аджарски', desc:'', price:0, img:null },
+{ id:'hs5', cat:'hot-snacks', name:'Сырные палочки', desc:'', price:3290, img:'images/syrnye-palochki.jpg' },
+{ id:'hs6', cat:'hot-snacks', name:'Нагетсы', desc:'', price:3290, img:'images/nuggets.jpg' },
+{ id:'hs7', cat:'hot-snacks', name:'Луковые кольца', desc:'', price:3290, img:'images/lukovye-koltsa.jpg' },
+{ id:'hs8', cat:'hot-snacks', name:'Креветки в шпажках', desc:'', price:5290, img:'images/krevetki-v-shpazhkah.jpg' },
+{ id:'hs9', cat:'hot-snacks', name:'Крылышки Баффало с фри', desc:'', price:6200, img:'images/krylyshki-buffalo-fri.jpg' },
+{ id:'hs10', cat:'hot-snacks', name:'Чебупели', desc:'', price:4890, img:'images/chebupeli.jpg' },
+{ id:'hs11', cat:'hot-snacks', name:'Triple crunch с мясом', desc:'', price:4890, img:'images/triple-crunch.jpg' },
 
 
 // =====================================================
 // ПИЦЦА
 // =====================================================
 
-{ id:'p1', cat:'pizza', name:'Пепперонни', desc:'', price:2890, img:'images/margariri.jpg' },
-{ id:'p2', cat:'pizza', name:'Маргаритта', desc:'', price:3890, img:'images/pepperoni.jpg' },
+{ id:'p1', cat:'pizza', name:'Пепперонни', desc:'', price:3890, img:'images/margariri.jpg' },
+{ id:'p2', cat:'pizza', name:'Маргаритта', desc:'', price:2890, img:'images/pepperoni.jpg' },
 { id:'p3', cat:'pizza', name:'Мексиканская', desc:'', price:4390, img:'images/mexican-pizza.jpg' },
 { id:'p4', cat:'pizza', name:'Хачапури по-мингерски', desc:'', price:4590, img:'images/hachapuri.megrelskiy.jpg' },
   { id:'p5', cat:'pizza', name:'Кесадилья с курицей', desc:'', price:3990, img:'images/quesadilla-s-kuritsey.jpg' },
+  { id:'p6', cat:'pizza', name:'4 сезона', desc:'', price:4390, img:'images/4-sezona.jpg' },
 
 
 // =====================================================
@@ -111,6 +123,8 @@ const ITEMS = [
 { id:'su4', cat:'soups', name:'Суанла Тан', desc:'酸辣烫', price:4390, img:'images/suanla-tang.jpg' },
 { id:'su5', cat:'soups', name:'Шихоңш Жидан Тан', desc:'西红柿鸡蛋汤', price:3890, img:'images/xihongshi-jidan-tang.jpg' },
   { id:'su6', cat:'soups', name:'Грибной крем суп', desc:'', price:2980, img:'images/gribnoy-krem-sup.jpg' },
+  { id:'su7', cat:'soups', name:'Чечевичный крем суп', desc:'', price:2980, img:'images/chechevichny-krem-sup.jpg' },
+{ id:'su8', cat:'soups', name:'Сорпа из баранины', desc:'', price:4580, img:'images/sorpa-iz-baraniny.jpg' },
 
 // =====================================================
 // САЛАТЫ
@@ -132,25 +146,16 @@ const ITEMS = [
 
 { id:'m1', cat:'main', name:'Куринная грудка с грибным соте', desc:'', price:3890, img:'images/chicken-breast-with-mushroom-saute.jpg' },
 { id:'m2', cat:'main', name:'Мясо по-тайски', desc:'', price:3790, img:'images/myaso.po.tayski.jpg' },
-{ id:'m3', cat:'main', name:'Стейк Рибай', desc:'', price:7890, img:'images/ribay.steyk.jpg' },
+{ id:'m3', cat:'main', name:'Стейк Рибай', desc:'', price:6890, img:'images/ribay.steyk.jpg' },
 { id:'m4', cat:'main', name:'Строганов с картофельным пюре', desc:'', price:3890, img:'images/befstroganov.s.pure.jpg' },
 { id:'m5', cat:'main', name:'Паста Альфредо', desc:'', price:3590, img:'images/pasta.alfredo.jpg' },
 { id:'m6', cat:'main', name:'Паста с лососем и шпинатом', desc:'', price:3590, img:'images/pasta.s.lososem.i.shpinatom.jpg' },
-{ id:'m7', cat:'main', name:'Паста лассо со шпинатом', desc:'', price:3890, img:null },
 { id:'m8', cat:'main', name:'Куриная грудка с грибным соусом', desc:'', price:3890, img:'images/chicken-breast-with-mushroom-saute.jpg' },
-{ id:'m9', cat:'main', name:'Тушёнка с сырными макаронами', desc:'', price:4690, img:null },
   { id:'m33', cat:'main', name:'Курица в сливочном соусе с рисом', desc:'', price:4990, img:'images/kuritsa-slivochny-sous-ris.jpg' },
 { id:'m34', cat:'main', name:'Курица в кисло-сладком соусе с рисом', desc:'', price:4990, img:'images/kuritsa-kislo-sladky-sous-ris.jpg' },
-  { id:'m35', cat:'main', name:'Паста Болоньезе', desc:'', price:4590, img:'images/pasta-bolonezе.jpg' },
+  { id:'m35', cat:'main', name:'Паста Болоньезе', desc:'', price:4590, img:'images/pasta-bolonezе1.jpg' },
 
 
-
-// =====================================================
-// ПИВНОЙ СЕТ
-// =====================================================
-
-{ id:'bs1', cat:'beer-set', name:'Пивной сет N-2', desc:'', price:6390, img:'images/pivset1.jpg' },
-{ id:'bs2', cat:'beer-set', name:'Пивной сет N-3', desc:'', price:7890, img:'images/pivset1.jpg' },
 
 
 // =====================================================
@@ -160,7 +165,6 @@ const ITEMS = [
 { id:'sd1', cat:'sides', name:'Рис', desc:'', price:790, img:'images/ris.jpg' },
 { id:'sd2', cat:'sides', name:'Дольки', desc:'', price:1590, img:'images/kartofelnie.dolki.jpg' },
 { id:'sd3', cat:'sides', name:'Овощи на гриле', desc:'', price:1900, img:'images/ovoshi.na.grile.jpg' },
-{ id:'sd4', cat:'sides', name:'Хлебная корзина', desc:'', price:890, img:null },
 { id:'sd5', cat:'sides', name:'Картофель фри', desc:'', price:1490, img:'images/kartofel.fri.jpg' }
 ];
  
