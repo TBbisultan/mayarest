@@ -9,7 +9,7 @@ const CATEGORIES= [
   { id:'soups',       name:'Супы' },
   { id:'salads',      name:'Салаты' },
   { id:'main',        name:'Вторые блюда' },
-   { id:'pivset',        name:'Пивные сэты' },
+ { id:'pivset',     name:'Пивные сэты' },
   { id:'sides',       name:'Гарниры и хлеб' },
 ];
 
@@ -157,7 +157,7 @@ const ITEMS = [
 // Пив сэт
 // =====================================================
 
-  { id:'bs2', cat:'pivset', name:'Пивной набор N-3', desc:'', цена:8290, img:'images/pivset3.jpg' },
+  { id:'ps2', cat:'pivset', name:'Пивной набор N-3', desc:'', цена:8290, img:'images/pivset3.jpg' },
 
 // =====================================================
 // ГАРНИРЫ И ХЛЕБ
