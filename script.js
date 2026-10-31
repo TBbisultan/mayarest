@@ -90,7 +90,7 @@ const ITEMS = [
 
 { id:'hs1', cat:'hot-snacks', name:'Жареный чечил', desc:'', price:2190, img:'images/zharrenichechel.jpg' },
 { id:'hs2', cat:'hot-snacks', name:'Гарлики', desc:'', price:2690, img:'images/garlic-croutons.jpg' },
-{ id:'hs3', cat:'hot-snacks', name:'Пивные креветки', desc:'', price:3290, img:'images/beer-shrimp.jpg' },
+{ id:'hs3', cat:'hot-snacks', name:'Пивные креветки', desc:'', price:4390, img:'images/beer-shrimp.jpg' },
 { id:'hs5', cat:'hot-snacks', name:'Сырные палочки', desc:'', price:3290, img:'images/syrnye-palochki.jpg' },
 { id:'hs6', cat:'hot-snacks', name:'Нагетсы', desc:'', price:3290, img:'images/nuggets.jpg' },
 { id:'hs7', cat:'hot-snacks', name:'Луковые кольца', desc:'', price:3290, img:'images/lukovye-koltsa.jpg' },
