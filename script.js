@@ -157,7 +157,7 @@ const ITEMS = [
 // Пив сэт
 // =====================================================
 
-{ id:'bs2', cat:'beer-set', name:'Пивной набор N-3', desc:'', price:8290, img:'images/pivset3.jpg' },
+{ id:'bs2', cat:'beer-set', name:'Пивной сэт N-3', desc:'', price:8290, img:'images/pivset3.jpg' },
 
 // =====================================================
 // ГАРНИРЫ И ХЛЕБ
@@ -167,6 +167,7 @@ const ITEMS = [
 { id:'sd2', cat:'sides', name:'Дольки', desc:'', price:1590, img:'images/kartofelnie.dolki.jpg' },
 { id:'sd3', cat:'sides', name:'Овощи на гриле', desc:'', price:1900, img:'images/ovoshi.na.grile.jpg' },
 { id:'sd5', cat:'sides', name:'Картофель фри', desc:'', price:1490, img:'images/kartofel.fri.jpg' }
+  { id:'sd6', cat:'sides', name:'Хлебная корзина', desc:'', price:890, img:'images/hlebnaya-korzina.jpg' },
 ];
  
 /* ---------------- STATE ---------------- */
