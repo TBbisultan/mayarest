@@ -9,6 +9,7 @@ const CATEGORIES= [
   { id:'soups',       name:'Супы' },
   { id:'salads',      name:'Салаты' },
   { id:'main',        name:'Вторые блюда' },
+   { id:'pivset',        name:'Пивные сэты' },
   { id:'sides',       name:'Гарниры и хлеб' },
 ];
 
@@ -76,11 +77,9 @@ const ITEMS = [
 { id:'cs1', cat:'cold-snacks', name:'Русская закуска', desc:'', price:4690, img:'images/russian-appetizer.jpg' },
 { id:'cs2', cat:'cold-snacks', name:'Фруктовый ассорти', desc:'', price:7890, img:'images/fruit-assortment.jpg' },
 { id:'cs5', cat:'cold-snacks', name:'Брускетта с лососем', desc:'', price:3890, img:'images/salmon-bruschetta.jpg' },
-{ id:'cs6', cat:'cold-snacks', name:'Мясной микс', desc:'', price:0, img:null },
   { id:'cs22', cat:'cold-snacks', name:'Кавказская нарезка', desc:'', price:3990, img:'images/kavkazskaya-narezka.jpg' },
 { id:'cs23', cat:'cold-snacks', name:'Закуска со шпротами', desc:'', price:2990, img:'images/zakuska-so-shprotami.jpg' },
   { id:'cs24', cat:'cold-snacks', name:'Пивной сет N-1', desc:'', price:6390, img:'images/pivset1.jpg' },
-{ id:'cs25', cat:'cold-snacks', name:'Пивной сет N-3', desc:'', price:8290, img:'images/pivset3.jpg' },
 
 
 
@@ -97,7 +96,6 @@ const ITEMS = [
 { id:'hs7', cat:'hot-snacks', name:'Луковые кольца', desc:'', price:3290, img:'images/lukovye-koltsa.jpg' },
 { id:'hs8', cat:'hot-snacks', name:'Креветки в шпажках', desc:'', price:5290, img:'images/krevetki-v-shpazhkah.jpg' },
 { id:'hs9', cat:'hot-snacks', name:'Крылышки Баффало с фри', desc:'', price:6200, img:'images/krylyshki-buffalo-fri.jpg' },
-{ id:'hs10', cat:'hot-snacks', name:'Чебупели', desc:'', price:4890, img:'images/chebupeli.jpg' },
 { id:'hs11', cat:'hot-snacks', name:'Triple crunch с мясом', desc:'', price:4890, img:'images/triple-crunch.jpg' },
 
 
@@ -155,8 +153,11 @@ const ITEMS = [
 { id:'m34', cat:'main', name:'Курица в кисло-сладком соусе с рисом', desc:'', price:4990, img:'images/kuritsa-kislo-sladky-sous-ris.jpg' },
   { id:'m35', cat:'main', name:'Паста Болоньезе', desc:'', price:4590, img:'images/pasta-bolonezе1.jpg' },
 
+// =====================================================
+// Пив сэт
+// =====================================================
 
-
+  { id:'bs2', cat:'pivset', name:'Пивной набор N-3', desc:'', цена:8290, img:'images/pivset3.jpg' },
 
 // =====================================================
 // ГАРНИРЫ И ХЛЕБ
